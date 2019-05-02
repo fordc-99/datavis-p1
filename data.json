@@ -1,0 +1,3296 @@
+{
+    "2016-01-01": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "87",
+        "172_rides": "185",
+        "temp": "23",
+        "precip": "0"
+    },
+    "2016-01-02": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "161",
+        "172_rides": "305",
+        "temp": "27",
+        "precip": "0"
+    },
+    "2016-01-03": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "243",
+        "172_rides": "389",
+        "temp": "27",
+        "precip": "0"
+    },
+    "2016-01-04": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "1990",
+        "172_rides": "2182",
+        "temp": "27",
+        "precip": "0"
+    },
+    "2016-01-05": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "731",
+        "172_rides": "1801",
+        "temp": "26",
+        "precip": "0"
+    },
+    "2016-01-06": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1871",
+        "172_rides": "2348",
+        "temp": "28",
+        "precip": "0"
+    },
+    "2016-01-07": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1470",
+        "172_rides": "2689",
+        "temp": "36",
+        "precip": "0.01"
+    },
+    "2016-01-08": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1390",
+        "172_rides": "1953",
+        "temp": "38",
+        "precip": "0.19"
+    },
+    "2016-01-09": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "655",
+        "172_rides": "693",
+        "temp": "37",
+        "precip": "0.27"
+    },
+    "2016-01-10": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "339",
+        "172_rides": "572",
+        "temp": "19",
+        "precip": "0"
+    },
+    "2016-01-11": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "1892",
+        "172_rides": "2437",
+        "temp": "5",
+        "precip": "0.11"
+    },
+    "2016-01-12": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1249",
+        "172_rides": "2875",
+        "temp": "14",
+        "precip": "0.01"
+    },
+    "2016-01-13": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1246",
+        "172_rides": "2743",
+        "temp": "7",
+        "precip": "0"
+    },
+    "2016-01-14": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1252",
+        "172_rides": "2178",
+        "temp": "31",
+        "precip": "0"
+    },
+    "2016-01-15": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1884",
+        "172_rides": "2658",
+        "temp": "40",
+        "precip": "0.01"
+    },
+    "2016-01-16": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "614",
+        "172_rides": "620",
+        "temp": "28",
+        "precip": "0"
+    },
+    "2016-01-17": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "501",
+        "172_rides": "494",
+        "temp": "8",
+        "precip": "0"
+    },
+    "2016-01-18": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "627",
+        "172_rides": "965",
+        "temp": "1",
+        "precip": "0"
+    },
+    "2016-01-19": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1591",
+        "172_rides": "2622",
+        "temp": "6",
+        "precip": "0"
+    },
+    "2016-01-20": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1435",
+        "172_rides": "2574",
+        "temp": "17",
+        "precip": "0.05"
+    },
+    "2016-01-21": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1433",
+        "172_rides": "3050",
+        "temp": "19",
+        "precip": "0"
+    },
+    "2016-01-22": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1155",
+        "172_rides": "2344",
+        "temp": "24",
+        "precip": "0.02"
+    },
+    "2016-01-23": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "597",
+        "172_rides": "640",
+        "temp": "28",
+        "precip": "0"
+    },
+    "2016-01-24": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "579",
+        "172_rides": "664",
+        "temp": "27",
+        "precip": "0"
+    },
+    "2016-01-25": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "1251",
+        "172_rides": "2681",
+        "temp": "31",
+        "precip": "0.13"
+    },
+    "2016-01-26": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1205",
+        "172_rides": "2751",
+        "temp": "33",
+        "precip": "0.02"
+    },
+    "2016-01-27": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1345",
+        "172_rides": "3115",
+        "temp": "28",
+        "precip": "0"
+    },
+    "2016-01-28": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1956",
+        "172_rides": "2486",
+        "temp": "34",
+        "precip": "0"
+    },
+    "2016-01-29": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1711",
+        "172_rides": "2187",
+        "temp": "28",
+        "precip": "0"
+    },
+    "2016-01-30": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "156",
+        "172_rides": "579",
+        "temp": "38",
+        "precip": "0"
+    },
+    "2016-01-31": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "300",
+        "172_rides": "577",
+        "temp": "42",
+        "precip": "0.02"
+    },
+    "2016-02-01": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "1426",
+        "172_rides": "2432",
+        "temp": "36",
+        "precip": "0"
+    },
+    "2016-02-02": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1784",
+        "172_rides": "3005",
+        "temp": "35",
+        "precip": "0.79"
+    },
+    "2016-02-03": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1969",
+        "172_rides": "2852",
+        "temp": "36",
+        "precip": "0.02"
+    },
+    "2016-02-04": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1655",
+        "172_rides": "2264",
+        "temp": "27",
+        "precip": "0"
+    },
+    "2016-02-05": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1073",
+        "172_rides": "1893",
+        "temp": "29",
+        "precip": "0"
+    },
+    "2016-02-06": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "609",
+        "172_rides": "624",
+        "temp": "31",
+        "precip": "0"
+    },
+    "2016-02-07": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "513",
+        "172_rides": "568",
+        "temp": "38",
+        "precip": "0"
+    },
+    "2016-02-08": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "2269",
+        "172_rides": "2260",
+        "temp": "31",
+        "precip": "0.02"
+    },
+    "2016-02-09": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1523",
+        "172_rides": "2883",
+        "temp": "19",
+        "precip": "0.02"
+    },
+    "2016-02-10": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "2113",
+        "172_rides": "3103",
+        "temp": "14",
+        "precip": "0"
+    },
+    "2016-02-11": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "2014",
+        "172_rides": "3438",
+        "temp": "13",
+        "precip": "0"
+    },
+    "2016-02-12": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1290",
+        "172_rides": "1927",
+        "temp": "19",
+        "precip": "0"
+    },
+    "2016-02-13": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "498",
+        "172_rides": "611",
+        "temp": "9",
+        "precip": "0"
+    },
+    "2016-02-14": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "541",
+        "172_rides": "547",
+        "temp": "14",
+        "precip": "0.1"
+    },
+    "2016-02-15": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "2169",
+        "172_rides": "2170",
+        "temp": "21",
+        "precip": "0.01"
+    },
+    "2016-02-16": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "2146",
+        "172_rides": "2779",
+        "temp": "27",
+        "precip": "0.04"
+    },
+    "2016-02-17": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "2056",
+        "172_rides": "2717",
+        "temp": "28",
+        "precip": "0"
+    },
+    "2016-02-18": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "2296",
+        "172_rides": "2648",
+        "temp": "30",
+        "precip": "0"
+    },
+    "2016-02-19": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1775",
+        "172_rides": "2371",
+        "temp": "47",
+        "precip": "0"
+    },
+    "2016-02-20": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "558",
+        "172_rides": "701",
+        "temp": "49",
+        "precip": "0"
+    },
+    "2016-02-21": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "293",
+        "172_rides": "543",
+        "temp": "40",
+        "precip": "0"
+    },
+    "2016-02-22": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "2072",
+        "172_rides": "2397",
+        "temp": "35",
+        "precip": "0"
+    },
+    "2016-02-23": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1950",
+        "172_rides": "2856",
+        "temp": "36",
+        "precip": "0"
+    },
+    "2016-02-24": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "2123",
+        "172_rides": "2920",
+        "temp": "35",
+        "precip": "0.15"
+    },
+    "2016-02-25": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1863",
+        "172_rides": "2196",
+        "temp": "33",
+        "precip": "0"
+    },
+    "2016-02-26": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1689",
+        "172_rides": "2257",
+        "temp": "31",
+        "precip": "0"
+    },
+    "2016-02-27": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "555",
+        "172_rides": "631",
+        "temp": "37",
+        "precip": "0"
+    },
+    "2016-02-28": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "252",
+        "172_rides": "544",
+        "temp": "52",
+        "precip": "0.08"
+    },
+    "2016-02-29": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "1877",
+        "172_rides": "2582",
+        "temp": "41",
+        "precip": "0"
+    },
+    "2016-03-01": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "2119",
+        "172_rides": "3003",
+        "temp": "28",
+        "precip": "0.1"
+    },
+    "2016-03-02": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1719",
+        "172_rides": "2433",
+        "temp": "21",
+        "precip": "0"
+    },
+    "2016-03-03": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "2113",
+        "172_rides": "2984",
+        "temp": "30",
+        "precip": "0.07"
+    },
+    "2016-03-04": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1727",
+        "172_rides": "2265",
+        "temp": "30",
+        "precip": "0.07"
+    },
+    "2016-03-05": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "507",
+        "172_rides": "605",
+        "temp": "33",
+        "precip": "0"
+    },
+    "2016-03-06": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "398",
+        "172_rides": "648",
+        "temp": "39",
+        "precip": "0"
+    },
+    "2016-03-07": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "1673",
+        "172_rides": "2312",
+        "temp": "51",
+        "precip": "0.03"
+    },
+    "2016-03-08": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1742",
+        "172_rides": "2430",
+        "temp": "62",
+        "precip": "0"
+    },
+    "2016-03-09": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1696",
+        "172_rides": "2187",
+        "temp": "61",
+        "precip": "0.18"
+    },
+    "2016-03-10": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1662",
+        "172_rides": "2075",
+        "temp": "49",
+        "precip": "0"
+    },
+    "2016-03-11": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1522",
+        "172_rides": "1792",
+        "temp": "43",
+        "precip": "0"
+    },
+    "2016-03-12": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "502",
+        "172_rides": "567",
+        "temp": "43",
+        "precip": "0"
+    },
+    "2016-03-13": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Winter 16",
+        "171_rides": "447",
+        "172_rides": "548",
+        "temp": "47",
+        "precip": "0.66"
+    },
+    "2016-03-14": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Winter 16",
+        "171_rides": "1611",
+        "172_rides": "2039",
+        "temp": "47",
+        "precip": "0.01"
+    },
+    "2016-03-15": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Winter 16",
+        "171_rides": "1441",
+        "172_rides": "1780",
+        "temp": "49",
+        "precip": "0.14"
+    },
+    "2016-03-16": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Winter 16",
+        "171_rides": "1206",
+        "172_rides": "2175",
+        "temp": "53",
+        "precip": "0.04"
+    },
+    "2016-03-17": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Winter 16",
+        "171_rides": "1305",
+        "172_rides": "1637",
+        "temp": "47",
+        "precip": "0"
+    },
+    "2016-03-18": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Winter 16",
+        "171_rides": "1072",
+        "172_rides": "1008",
+        "temp": "41",
+        "precip": "0"
+    },
+    "2016-03-19": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Winter 16",
+        "171_rides": "276",
+        "172_rides": "330",
+        "temp": "38",
+        "precip": "0"
+    },
+    "2016-03-20": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "125",
+        "172_rides": "280",
+        "temp": "37",
+        "precip": "0"
+    },
+    "2016-03-21": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "708",
+        "172_rides": "890",
+        "temp": "38",
+        "precip": "0"
+    },
+    "2016-03-22": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "708",
+        "172_rides": "996",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-03-23": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "782",
+        "172_rides": "997",
+        "temp": "42",
+        "precip": "0.11"
+    },
+    "2016-03-24": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "874",
+        "172_rides": "808",
+        "temp": "37",
+        "precip": "1.09"
+    },
+    "2016-03-25": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "617",
+        "172_rides": "817",
+        "temp": "35",
+        "precip": "0"
+    },
+    "2016-03-26": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "252",
+        "172_rides": "288",
+        "temp": "40",
+        "precip": "0"
+    },
+    "2016-03-27": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "309",
+        "172_rides": "335",
+        "temp": "47",
+        "precip": "0.32"
+    },
+    "2016-03-28": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1777",
+        "172_rides": "2353",
+        "temp": "45",
+        "precip": "0"
+    },
+    "2016-03-29": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1491",
+        "172_rides": "2275",
+        "temp": "44",
+        "precip": "0"
+    },
+    "2016-03-30": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1636",
+        "172_rides": "2378",
+        "temp": "49",
+        "precip": "0.13"
+    },
+    "2016-03-31": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1247",
+        "172_rides": "1293",
+        "temp": "60",
+        "precip": "0.39"
+    },
+    "2016-04-01": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1496",
+        "172_rides": "2323",
+        "temp": "45",
+        "precip": "0.08"
+    },
+    "2016-04-02": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "591",
+        "172_rides": "624",
+        "temp": "35",
+        "precip": "0.02"
+    },
+    "2016-04-03": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "494",
+        "172_rides": "586",
+        "temp": "40",
+        "precip": "0"
+    },
+    "2016-04-04": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "2063",
+        "172_rides": "2075",
+        "temp": "41",
+        "precip": "0"
+    },
+    "2016-04-05": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1859",
+        "172_rides": "2345",
+        "temp": "33",
+        "precip": "0.02"
+    },
+    "2016-04-06": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "2007",
+        "172_rides": "2568",
+        "temp": "44",
+        "precip": "0.31"
+    },
+    "2016-04-07": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1505",
+        "172_rides": "1695",
+        "temp": "40",
+        "precip": "0.06"
+    },
+    "2016-04-08": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1538",
+        "172_rides": "2262",
+        "temp": "37",
+        "precip": "0.1"
+    },
+    "2016-04-09": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "346",
+        "172_rides": "528",
+        "temp": "30",
+        "precip": "0"
+    },
+    "2016-04-10": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "659",
+        "172_rides": "648",
+        "temp": "37",
+        "precip": "0.1"
+    },
+    "2016-04-11": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1767",
+        "172_rides": "2444",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-04-12": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1566",
+        "172_rides": "2290",
+        "temp": "40",
+        "precip": "0"
+    },
+    "2016-04-13": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1341",
+        "172_rides": "1494",
+        "temp": "43",
+        "precip": "0"
+    },
+    "2016-04-14": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1082",
+        "172_rides": "1422",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-04-15": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1908",
+        "172_rides": "2172",
+        "temp": "53",
+        "precip": "0"
+    },
+    "2016-04-16": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "537",
+        "172_rides": "566",
+        "temp": "58",
+        "precip": "0"
+    },
+    "2016-04-17": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "454",
+        "172_rides": "486",
+        "temp": "62",
+        "precip": "0"
+    },
+    "2016-04-18": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1494",
+        "172_rides": "1905",
+        "temp": "66",
+        "precip": "0"
+    },
+    "2016-04-19": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1580",
+        "172_rides": "2417",
+        "temp": "54",
+        "precip": "0"
+    },
+    "2016-04-20": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1949",
+        "172_rides": "2073",
+        "temp": "58",
+        "precip": "0.48"
+    },
+    "2016-04-21": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1589",
+        "172_rides": "2256",
+        "temp": "62",
+        "precip": "0.01"
+    },
+    "2016-04-22": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1353",
+        "172_rides": "1907",
+        "temp": "51",
+        "precip": "0"
+    },
+    "2016-04-23": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "465",
+        "172_rides": "385",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-04-24": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "459",
+        "172_rides": "489",
+        "temp": "56",
+        "precip": "0"
+    },
+    "2016-04-25": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1454",
+        "172_rides": "2158",
+        "temp": "69",
+        "precip": "0.08"
+    },
+    "2016-04-26": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1912",
+        "172_rides": "2283",
+        "temp": "53",
+        "precip": "0"
+    },
+    "2016-04-27": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "2069",
+        "172_rides": "2056",
+        "temp": "44",
+        "precip": "0.47"
+    },
+    "2016-04-28": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1747",
+        "172_rides": "2192",
+        "temp": "45",
+        "precip": "0.45"
+    },
+    "2016-04-29": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1791",
+        "172_rides": "2298",
+        "temp": "44",
+        "precip": "0.01"
+    },
+    "2016-04-30": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "576",
+        "172_rides": "612",
+        "temp": "45",
+        "precip": "0.61"
+    },
+    "2016-05-01": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "554",
+        "172_rides": "586",
+        "temp": "45",
+        "precip": "0.51"
+    },
+    "2016-05-02": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "2049",
+        "172_rides": "2606",
+        "temp": "49",
+        "precip": "0"
+    },
+    "2016-05-03": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1684",
+        "172_rides": "2003",
+        "temp": "53",
+        "precip": "0"
+    },
+    "2016-05-04": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1826",
+        "172_rides": "2241",
+        "temp": "52",
+        "precip": "0.4"
+    },
+    "2016-05-05": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1801",
+        "172_rides": "2066",
+        "temp": "49",
+        "precip": "0"
+    },
+    "2016-05-06": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1270",
+        "172_rides": "1649",
+        "temp": "59",
+        "precip": "0"
+    },
+    "2016-05-07": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "304",
+        "172_rides": "457",
+        "temp": "65",
+        "precip": "0.02"
+    },
+    "2016-05-08": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "340",
+        "172_rides": "365",
+        "temp": "55",
+        "precip": "0"
+    },
+    "2016-05-09": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1744",
+        "172_rides": "2254",
+        "temp": "56",
+        "precip": "0.59"
+    },
+    "2016-05-10": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1925",
+        "172_rides": "2513",
+        "temp": "54",
+        "precip": "0.79"
+    },
+    "2016-05-11": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1722",
+        "172_rides": "2186",
+        "temp": "58",
+        "precip": "0.19"
+    },
+    "2016-05-12": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1821",
+        "172_rides": "2465",
+        "temp": "61",
+        "precip": "0.48"
+    },
+    "2016-05-13": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1414",
+        "172_rides": "1851",
+        "temp": "58",
+        "precip": "0.68"
+    },
+    "2016-05-14": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "460",
+        "172_rides": "532",
+        "temp": "46",
+        "precip": "0"
+    },
+    "2016-05-15": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "464",
+        "172_rides": "487",
+        "temp": "45",
+        "precip": "0"
+    },
+    "2016-05-16": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1357",
+        "172_rides": "2243",
+        "temp": "56",
+        "precip": "0"
+    },
+    "2016-05-17": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1957",
+        "172_rides": "2074",
+        "temp": "54",
+        "precip": "0"
+    },
+    "2016-05-18": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1748",
+        "172_rides": "2418",
+        "temp": "52",
+        "precip": "0"
+    },
+    "2016-05-19": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1350",
+        "172_rides": "2078",
+        "temp": "55",
+        "precip": "0"
+    },
+    "2016-05-20": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1309",
+        "172_rides": "2303",
+        "temp": "58",
+        "precip": "0"
+    },
+    "2016-05-21": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "252",
+        "172_rides": "387",
+        "temp": "62",
+        "precip": "0"
+    },
+    "2016-05-22": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "411",
+        "172_rides": "481",
+        "temp": "66",
+        "precip": "0"
+    },
+    "2016-05-23": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1575",
+        "172_rides": "2049",
+        "temp": "66",
+        "precip": "0"
+    },
+    "2016-05-24": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1798",
+        "172_rides": "1914",
+        "temp": "72",
+        "precip": "0"
+    },
+    "2016-05-25": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "2044",
+        "172_rides": "2132",
+        "temp": "76",
+        "precip": "0.95"
+    },
+    "2016-05-26": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "2430",
+        "172_rides": "1961",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-05-27": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1569",
+        "172_rides": "1729",
+        "temp": "74",
+        "precip": "0.13"
+    },
+    "2016-05-28": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "291",
+        "172_rides": "383",
+        "temp": "73",
+        "precip": "0.13"
+    },
+    "2016-05-29": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "399",
+        "172_rides": "447",
+        "temp": "72",
+        "precip": "0"
+    },
+    "2016-05-30": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "506",
+        "172_rides": "567",
+        "temp": "74",
+        "precip": "0"
+    },
+    "2016-05-31": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1993",
+        "172_rides": "2266",
+        "temp": "73",
+        "precip": "0.56"
+    },
+    "2016-06-01": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1817",
+        "172_rides": "2110",
+        "temp": "68",
+        "precip": "0.42"
+    },
+    "2016-06-02": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1406",
+        "172_rides": "1645",
+        "temp": "70",
+        "precip": "0"
+    },
+    "2016-06-03": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1411",
+        "172_rides": "1554",
+        "temp": "70",
+        "precip": "0"
+    },
+    "2016-06-04": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "320",
+        "172_rides": "491",
+        "temp": "69",
+        "precip": "0.41"
+    },
+    "2016-06-05": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Spring 16",
+        "171_rides": "411",
+        "172_rides": "424",
+        "temp": "68",
+        "precip": "0.05"
+    },
+    "2016-06-06": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Spring 16",
+        "171_rides": "1430",
+        "172_rides": "1599",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-06-07": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Spring 16",
+        "171_rides": "1203",
+        "172_rides": "1302",
+        "temp": "63",
+        "precip": "0"
+    },
+    "2016-06-08": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Spring 16",
+        "171_rides": "1470",
+        "172_rides": "1601",
+        "temp": "61",
+        "precip": "0"
+    },
+    "2016-06-09": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Spring 16",
+        "171_rides": "1089",
+        "172_rides": "1489",
+        "temp": "61",
+        "precip": "0.21"
+    },
+    "2016-06-10": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Spring 16",
+        "171_rides": "1024",
+        "172_rides": "1457",
+        "temp": "74",
+        "precip": "0.1"
+    },
+    "2016-06-11": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Spring 16",
+        "171_rides": "157",
+        "172_rides": "520",
+        "temp": "82",
+        "precip": "0"
+    },
+    "2016-06-12": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "205",
+        "172_rides": "270",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-06-13": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "831",
+        "172_rides": "1174",
+        "temp": "68",
+        "precip": "0.02"
+    },
+    "2016-06-14": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "747",
+        "172_rides": "1068",
+        "temp": "74",
+        "precip": "0"
+    },
+    "2016-06-15": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "981",
+        "172_rides": "1562",
+        "temp": "78",
+        "precip": "0.3"
+    },
+    "2016-06-16": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "787",
+        "172_rides": "1033",
+        "temp": "74",
+        "precip": "0"
+    },
+    "2016-06-17": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "645",
+        "172_rides": "899",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-06-18": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "165",
+        "172_rides": "221",
+        "temp": "74",
+        "precip": "0"
+    },
+    "2016-06-19": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "78",
+        "precip": "0"
+    },
+    "2016-06-20": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "364",
+        "172_rides": "746",
+        "temp": "83",
+        "precip": "0"
+    },
+    "2016-06-21": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "222",
+        "172_rides": "519",
+        "temp": "76",
+        "precip": "0"
+    },
+    "2016-06-22": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "230",
+        "172_rides": "590",
+        "temp": "72",
+        "precip": "1.31"
+    },
+    "2016-06-23": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "261",
+        "172_rides": "522",
+        "temp": "70",
+        "precip": "0"
+    },
+    "2016-06-24": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "242",
+        "172_rides": "452",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-06-25": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "77",
+        "precip": "0"
+    },
+    "2016-06-26": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "81",
+        "precip": "0.03"
+    },
+    "2016-06-27": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "349",
+        "172_rides": "629",
+        "temp": "80",
+        "precip": "0"
+    },
+    "2016-06-28": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "284",
+        "172_rides": "501",
+        "temp": "68",
+        "precip": "0"
+    },
+    "2016-06-29": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "206",
+        "172_rides": "491",
+        "temp": "67",
+        "precip": "0"
+    },
+    "2016-06-30": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "246",
+        "172_rides": "534",
+        "temp": "69",
+        "precip": "0"
+    },
+    "2016-07-01": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "270",
+        "172_rides": "354",
+        "temp": "69",
+        "precip": "0"
+    },
+    "2016-07-02": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "65",
+        "precip": "0"
+    },
+    "2016-07-03": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "68",
+        "precip": "0"
+    },
+    "2016-07-04": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-07-05": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "232",
+        "172_rides": "540",
+        "temp": "76",
+        "precip": "0"
+    },
+    "2016-07-06": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "312",
+        "172_rides": "280",
+        "temp": "77",
+        "precip": "0.87"
+    },
+    "2016-07-07": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "242",
+        "172_rides": "532",
+        "temp": "77",
+        "precip": "1.05"
+    },
+    "2016-07-08": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "301",
+        "172_rides": "584",
+        "temp": "76",
+        "precip": "0"
+    },
+    "2016-07-09": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "73",
+        "precip": "0"
+    },
+    "2016-07-10": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "72",
+        "precip": "0"
+    },
+    "2016-07-11": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "319",
+        "172_rides": "592",
+        "temp": "78",
+        "precip": "0"
+    },
+    "2016-07-12": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "72",
+        "172_rides": "452",
+        "temp": "81",
+        "precip": "0"
+    },
+    "2016-07-13": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "270",
+        "172_rides": "572",
+        "temp": "78",
+        "precip": "0.06"
+    },
+    "2016-07-14": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "116",
+        "172_rides": "495",
+        "temp": "76",
+        "precip": "0"
+    },
+    "2016-07-15": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "125",
+        "172_rides": "474",
+        "temp": "71",
+        "precip": "0.14"
+    },
+    "2016-07-16": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "67",
+        "precip": "0"
+    },
+    "2016-07-17": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "71",
+        "precip": "0.25"
+    },
+    "2016-07-18": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "558",
+        "172_rides": "664",
+        "temp": "79",
+        "precip": "0"
+    },
+    "2016-07-19": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "298",
+        "172_rides": "547",
+        "temp": "79",
+        "precip": "0"
+    },
+    "2016-07-20": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "301",
+        "172_rides": "529",
+        "temp": "79",
+        "precip": "0"
+    },
+    "2016-07-21": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "325",
+        "172_rides": "398",
+        "temp": "81",
+        "precip": "1.03"
+    },
+    "2016-07-22": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "356",
+        "172_rides": "365",
+        "temp": "79",
+        "precip": "0.01"
+    },
+    "2016-07-23": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "85",
+        "precip": "1.11"
+    },
+    "2016-07-24": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "78",
+        "precip": "0.94"
+    },
+    "2016-07-25": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "420",
+        "172_rides": "739",
+        "temp": "79",
+        "precip": "0"
+    },
+    "2016-07-26": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "229",
+        "172_rides": "538",
+        "temp": "79",
+        "precip": "0"
+    },
+    "2016-07-27": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "306",
+        "172_rides": "521",
+        "temp": "79",
+        "precip": "0"
+    },
+    "2016-07-28": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "191",
+        "172_rides": "522",
+        "temp": "77",
+        "precip": "0.66"
+    },
+    "2016-07-29": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "367",
+        "172_rides": "533",
+        "temp": "73",
+        "precip": "0.11"
+    },
+    "2016-07-30": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "72",
+        "precip": "0"
+    },
+    "2016-07-31": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "73",
+        "precip": "0"
+    },
+    "2016-08-01": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "332",
+        "172_rides": "562",
+        "temp": "75",
+        "precip": "0"
+    },
+    "2016-08-02": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "199",
+        "172_rides": "539",
+        "temp": "77",
+        "precip": "0"
+    },
+    "2016-08-03": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "376",
+        "172_rides": "762",
+        "temp": "80",
+        "precip": "0"
+    },
+    "2016-08-04": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "256",
+        "172_rides": "549",
+        "temp": "81",
+        "precip": "0.02"
+    },
+    "2016-08-05": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "298",
+        "172_rides": "537",
+        "temp": "78",
+        "precip": "0"
+    },
+    "2016-08-06": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "76",
+        "precip": "0"
+    },
+    "2016-08-07": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "75",
+        "precip": "0"
+    },
+    "2016-08-08": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "278",
+        "172_rides": "633",
+        "temp": "77",
+        "precip": "0"
+    },
+    "2016-08-09": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "251",
+        "172_rides": "570",
+        "temp": "78",
+        "precip": "0"
+    },
+    "2016-08-10": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "125",
+        "172_rides": "476",
+        "temp": "80",
+        "precip": "0"
+    },
+    "2016-08-11": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "380",
+        "172_rides": "647",
+        "temp": "82",
+        "precip": "0"
+    },
+    "2016-08-12": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "332",
+        "172_rides": "552",
+        "temp": "80",
+        "precip": "0.96"
+    },
+    "2016-08-13": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "77",
+        "precip": "0"
+    },
+    "2016-08-14": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "77",
+        "precip": "0"
+    },
+    "2016-08-15": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "402",
+        "172_rides": "553",
+        "temp": "74",
+        "precip": "0"
+    },
+    "2016-08-16": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "321",
+        "172_rides": "473",
+        "temp": "76",
+        "precip": "0.02"
+    },
+    "2016-08-17": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "358",
+        "172_rides": "544",
+        "temp": "77",
+        "precip": "0.05"
+    },
+    "2016-08-18": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "264",
+        "172_rides": "624",
+        "temp": "77",
+        "precip": "0.75"
+    },
+    "2016-08-19": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "277",
+        "172_rides": "477",
+        "temp": "75",
+        "precip": "0.07"
+    },
+    "2016-08-20": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "75",
+        "precip": "0.47"
+    },
+    "2016-08-21": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "66",
+        "precip": "0"
+    },
+    "2016-08-22": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Summer 16",
+        "171_rides": "325",
+        "172_rides": "498",
+        "temp": "67",
+        "precip": "0"
+    },
+    "2016-08-23": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Summer 16",
+        "171_rides": "269",
+        "172_rides": "358",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-08-24": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Summer 16",
+        "171_rides": "245",
+        "172_rides": "382",
+        "temp": "75",
+        "precip": "0.23"
+    },
+    "2016-08-25": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Summer 16",
+        "171_rides": "188",
+        "172_rides": "385",
+        "temp": "76",
+        "precip": "0.09"
+    },
+    "2016-08-26": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Summer 16",
+        "171_rides": "282",
+        "172_rides": "422",
+        "temp": "72",
+        "precip": "0.14"
+    },
+    "2016-08-27": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Summer 16",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "74",
+        "precip": "0.84"
+    },
+    "2016-08-28": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "77",
+        "precip": "0"
+    },
+    "2016-08-29": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "318",
+        "172_rides": "615",
+        "temp": "76",
+        "precip": "0.43"
+    },
+    "2016-08-30": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "306",
+        "172_rides": "589",
+        "temp": "76",
+        "precip": "0.19"
+    },
+    "2016-08-31": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "290",
+        "172_rides": "548",
+        "temp": "73",
+        "precip": "0"
+    },
+    "2016-09-01": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "342",
+        "172_rides": "666",
+        "temp": "67",
+        "precip": "0"
+    },
+    "2016-09-02": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "257",
+        "172_rides": "494",
+        "temp": "68",
+        "precip": "0"
+    },
+    "2016-09-03": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": 0,
+        "172_rides": 0,
+        "temp": "68",
+        "precip": "0"
+    },
+    "2016-09-04": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "60",
+        "172_rides": "95",
+        "temp": "69",
+        "precip": "0"
+    },
+    "2016-09-05": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "97",
+        "172_rides": "131",
+        "temp": "73",
+        "precip": "0"
+    },
+    "2016-09-06": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "680",
+        "172_rides": "1245",
+        "temp": "82",
+        "precip": "0"
+    },
+    "2016-09-07": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "622",
+        "172_rides": "1280",
+        "temp": "83",
+        "precip": "0.39"
+    },
+    "2016-09-08": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "593",
+        "172_rides": "1247",
+        "temp": "76",
+        "precip": "0.05"
+    },
+    "2016-09-09": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "780",
+        "172_rides": "962",
+        "temp": "74",
+        "precip": "0"
+    },
+    "2016-09-10": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "153",
+        "172_rides": "273",
+        "temp": "69",
+        "precip": "0.01"
+    },
+    "2016-09-11": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "130",
+        "172_rides": "184",
+        "temp": "65",
+        "precip": "0"
+    },
+    "2016-09-12": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "660",
+        "172_rides": "1406",
+        "temp": "67",
+        "precip": "0"
+    },
+    "2016-09-13": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "834",
+        "172_rides": "1470",
+        "temp": "72",
+        "precip": "0"
+    },
+    "2016-09-14": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "664",
+        "172_rides": "1415",
+        "temp": "69",
+        "precip": "0.09"
+    },
+    "2016-09-15": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "571",
+        "172_rides": "1622",
+        "temp": "68",
+        "precip": "0"
+    },
+    "2016-09-16": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "899",
+        "172_rides": "1285",
+        "temp": "72",
+        "precip": "0.01"
+    },
+    "2016-09-17": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "188",
+        "172_rides": "387",
+        "temp": "74",
+        "precip": "0.04"
+    },
+    "2016-09-18": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "154",
+        "172_rides": "225",
+        "temp": "69",
+        "precip": "0"
+    },
+    "2016-09-19": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "653",
+        "172_rides": "1181",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-09-20": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "806",
+        "172_rides": "1946",
+        "temp": "75",
+        "precip": "0"
+    },
+    "2016-09-21": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "963",
+        "172_rides": "1966",
+        "temp": "70",
+        "precip": "0.55"
+    },
+    "2016-09-22": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1055",
+        "172_rides": "1745",
+        "temp": "71",
+        "precip": "0"
+    },
+    "2016-09-23": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1032",
+        "172_rides": "1902",
+        "temp": "72",
+        "precip": "0"
+    },
+    "2016-09-24": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "311",
+        "172_rides": "533",
+        "temp": "69",
+        "precip": "0"
+    },
+    "2016-09-25": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "358",
+        "172_rides": "438",
+        "temp": "72",
+        "precip": "0.01"
+    },
+    "2016-09-26": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1264",
+        "172_rides": "2963",
+        "temp": "66",
+        "precip": "0"
+    },
+    "2016-09-27": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1304",
+        "172_rides": "2625",
+        "temp": "60",
+        "precip": "0"
+    },
+    "2016-09-28": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1384",
+        "172_rides": "3106",
+        "temp": "56",
+        "precip": "0.31"
+    },
+    "2016-09-29": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1771",
+        "172_rides": "2364",
+        "temp": "61",
+        "precip": "0.2"
+    },
+    "2016-09-30": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1055",
+        "172_rides": "1843",
+        "temp": "62",
+        "precip": "0.1"
+    },
+    "2016-10-01": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "356",
+        "172_rides": "696",
+        "temp": "61",
+        "precip": "0.94"
+    },
+    "2016-10-02": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "308",
+        "172_rides": "413",
+        "temp": "60",
+        "precip": "0.03"
+    },
+    "2016-10-03": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1298",
+        "172_rides": "2565",
+        "temp": "62",
+        "precip": "0"
+    },
+    "2016-10-04": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1385",
+        "172_rides": "2571",
+        "temp": "65",
+        "precip": "0"
+    },
+    "2016-10-05": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1379",
+        "172_rides": "3042",
+        "temp": "69",
+        "precip": "0"
+    },
+    "2016-10-06": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1907",
+        "172_rides": "3100",
+        "temp": "66",
+        "precip": "0.25"
+    },
+    "2016-10-07": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1549",
+        "172_rides": "2307",
+        "temp": "65",
+        "precip": "0"
+    },
+    "2016-10-08": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "356",
+        "172_rides": "315",
+        "temp": "52",
+        "precip": "0"
+    },
+    "2016-10-09": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "241",
+        "172_rides": "399",
+        "temp": "56",
+        "precip": "0"
+    },
+    "2016-10-10": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1179",
+        "172_rides": "2838",
+        "temp": "56",
+        "precip": "0"
+    },
+    "2016-10-11": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1421",
+        "172_rides": "2432",
+        "temp": "63",
+        "precip": "0"
+    },
+    "2016-10-12": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "2193",
+        "172_rides": "3204",
+        "temp": "62",
+        "precip": "0.14"
+    },
+    "2016-10-13": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1617",
+        "172_rides": "2377",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-10-14": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1609",
+        "172_rides": "2570",
+        "temp": "50",
+        "precip": "0"
+    },
+    "2016-10-15": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "348",
+        "172_rides": "547",
+        "temp": "58",
+        "precip": "0"
+    },
+    "2016-10-16": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "256",
+        "172_rides": "470",
+        "temp": "69",
+        "precip": "0.29"
+    },
+    "2016-10-17": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1301",
+        "172_rides": "2769",
+        "temp": "72",
+        "precip": "0"
+    },
+    "2016-10-18": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1542",
+        "172_rides": "2427",
+        "temp": "74",
+        "precip": "0"
+    },
+    "2016-10-19": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1253",
+        "172_rides": "2443",
+        "temp": "60",
+        "precip": "0.02"
+    },
+    "2016-10-20": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1578",
+        "172_rides": "2321",
+        "temp": "55",
+        "precip": "0"
+    },
+    "2016-10-21": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1689",
+        "172_rides": "2977",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-10-22": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "364",
+        "172_rides": "450",
+        "temp": "47",
+        "precip": "0"
+    },
+    "2016-10-23": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "304",
+        "172_rides": "408",
+        "temp": "55",
+        "precip": "0"
+    },
+    "2016-10-24": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1016",
+        "172_rides": "2291",
+        "temp": "54",
+        "precip": "0"
+    },
+    "2016-10-25": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1136",
+        "172_rides": "2420",
+        "temp": "46",
+        "precip": "0"
+    },
+    "2016-10-26": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1494",
+        "172_rides": "3352",
+        "temp": "48",
+        "precip": "1.6"
+    },
+    "2016-10-27": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1673",
+        "172_rides": "2497",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-10-28": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1578",
+        "172_rides": "3094",
+        "temp": "49",
+        "precip": "0"
+    },
+    "2016-10-29": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "322",
+        "172_rides": "395",
+        "temp": "66",
+        "precip": "0"
+    },
+    "2016-10-30": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "283",
+        "172_rides": "488",
+        "temp": "54",
+        "precip": "0.5"
+    },
+    "2016-10-31": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1069",
+        "172_rides": "2458",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-11-01": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1278",
+        "172_rides": "2681",
+        "temp": "65",
+        "precip": "0"
+    },
+    "2016-11-02": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1412",
+        "172_rides": "2513",
+        "temp": "62",
+        "precip": "0.18"
+    },
+    "2016-11-03": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1598",
+        "172_rides": "1504",
+        "temp": "56",
+        "precip": "0"
+    },
+    "2016-11-04": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1411",
+        "172_rides": "2343",
+        "temp": "53",
+        "precip": "0"
+    },
+    "2016-11-05": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "318",
+        "172_rides": "475",
+        "temp": "55",
+        "precip": "0"
+    },
+    "2016-11-06": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "289",
+        "172_rides": "520",
+        "temp": "56",
+        "precip": "0"
+    },
+    "2016-11-07": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1131",
+        "172_rides": "1938",
+        "temp": "54",
+        "precip": "0"
+    },
+    "2016-11-08": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1420",
+        "172_rides": "2718",
+        "temp": "56",
+        "precip": "0.03"
+    },
+    "2016-11-09": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1276",
+        "172_rides": "2585",
+        "temp": "49",
+        "precip": "0"
+    },
+    "2016-11-10": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1607",
+        "172_rides": "1966",
+        "temp": "49",
+        "precip": "0"
+    },
+    "2016-11-11": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1591",
+        "172_rides": "2669",
+        "temp": "50",
+        "precip": "0"
+    },
+    "2016-11-12": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "311",
+        "172_rides": "516",
+        "temp": "42",
+        "precip": "0"
+    },
+    "2016-11-13": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "248",
+        "172_rides": "493",
+        "temp": "45",
+        "precip": "0"
+    },
+    "2016-11-14": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "959",
+        "172_rides": "2471",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-11-15": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1378",
+        "172_rides": "2492",
+        "temp": "46",
+        "precip": "0"
+    },
+    "2016-11-16": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1373",
+        "172_rides": "2392",
+        "temp": "48",
+        "precip": "0"
+    },
+    "2016-11-17": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1571",
+        "172_rides": "2225",
+        "temp": "55",
+        "precip": "0"
+    },
+    "2016-11-18": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1595",
+        "172_rides": "2413",
+        "temp": "62",
+        "precip": "0.2"
+    },
+    "2016-11-19": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "359",
+        "172_rides": "643",
+        "temp": "38",
+        "precip": "0.01"
+    },
+    "2016-11-20": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "322",
+        "172_rides": "574",
+        "temp": "29",
+        "precip": "0"
+    },
+    "2016-11-21": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "999",
+        "172_rides": "2480",
+        "temp": "30",
+        "precip": "0"
+    },
+    "2016-11-22": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1533",
+        "172_rides": "2678",
+        "temp": "33",
+        "precip": "0.02"
+    },
+    "2016-11-23": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "881",
+        "172_rides": "2092",
+        "temp": "40",
+        "precip": "0.21"
+    },
+    "2016-11-24": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "175",
+        "172_rides": "248",
+        "temp": "40",
+        "precip": "0"
+    },
+    "2016-11-25": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "345",
+        "172_rides": "356",
+        "temp": "37",
+        "precip": "0"
+    },
+    "2016-11-26": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "194",
+        "172_rides": "451",
+        "temp": "38",
+        "precip": "0"
+    },
+    "2016-11-27": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "203",
+        "172_rides": "390",
+        "temp": "38",
+        "precip": "0.05"
+    },
+    "2016-11-28": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1309",
+        "172_rides": "2512",
+        "temp": "44",
+        "precip": "0.99"
+    },
+    "2016-11-29": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1459",
+        "172_rides": "2742",
+        "temp": "50",
+        "precip": "0"
+    },
+    "2016-11-30": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1586",
+        "172_rides": "2446",
+        "temp": "41",
+        "precip": "0"
+    },
+    "2016-12-01": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1624",
+        "172_rides": "2497",
+        "temp": "38",
+        "precip": "0"
+    },
+    "2016-12-02": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1549",
+        "172_rides": "2696",
+        "temp": "37",
+        "precip": "0"
+    },
+    "2016-12-03": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "425",
+        "172_rides": "598",
+        "temp": "33",
+        "precip": "0"
+    },
+    "2016-12-04": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Fall 16",
+        "171_rides": "430",
+        "172_rides": "695",
+        "temp": "31",
+        "precip": "0.5"
+    },
+    "2016-12-05": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Fall 16",
+        "171_rides": "1528",
+        "172_rides": "1892",
+        "temp": "32",
+        "precip": "0"
+    },
+    "2016-12-06": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Fall 16",
+        "171_rides": "1558",
+        "172_rides": "2142",
+        "temp": "33",
+        "precip": "0"
+    },
+    "2016-12-07": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Fall 16",
+        "171_rides": "1144",
+        "172_rides": "2202",
+        "temp": "26",
+        "precip": "0"
+    },
+    "2016-12-08": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Fall 16",
+        "171_rides": "1461",
+        "172_rides": "2062",
+        "temp": "21",
+        "precip": "0.01"
+    },
+    "2016-12-09": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Fall 16",
+        "171_rides": "1482",
+        "172_rides": "2209",
+        "temp": "23",
+        "precip": "0"
+    },
+    "2016-12-10": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Fall 16",
+        "171_rides": "239",
+        "172_rides": "464",
+        "temp": "20",
+        "precip": "0.12"
+    },
+    "2016-12-11": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "214",
+        "172_rides": "318",
+        "temp": "26",
+        "precip": "0.44"
+    },
+    "2016-12-12": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "852",
+        "172_rides": "1605",
+        "temp": "25",
+        "precip": "0"
+    },
+    "2016-12-13": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "938",
+        "172_rides": "1415",
+        "temp": "15",
+        "precip": "0"
+    },
+    "2016-12-14": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "969",
+        "172_rides": "1428",
+        "temp": "10",
+        "precip": "0"
+    },
+    "2016-12-15": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "1004",
+        "172_rides": "1193",
+        "temp": "4",
+        "precip": "0"
+    },
+    "2016-12-16": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "965",
+        "172_rides": "1631",
+        "temp": "12",
+        "precip": "0.13"
+    },
+    "2016-12-17": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "217",
+        "172_rides": "273",
+        "temp": "20",
+        "precip": "0.12"
+    },
+    "2016-12-18": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "123",
+        "172_rides": "194",
+        "temp": "11",
+        "precip": "0.03"
+    },
+    "2016-12-19": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "622",
+        "172_rides": "971",
+        "temp": "-1",
+        "precip": "0"
+    },
+    "2016-12-20": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "946",
+        "172_rides": "1395",
+        "temp": "20",
+        "precip": "0"
+    },
+    "2016-12-21": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "805",
+        "172_rides": "799",
+        "temp": "26",
+        "precip": "0"
+    },
+    "2016-12-22": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "581",
+        "172_rides": "713",
+        "temp": "34",
+        "precip": "0"
+    },
+    "2016-12-23": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "526",
+        "172_rides": "446",
+        "temp": "31",
+        "precip": "0.1"
+    },
+    "2016-12-24": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "105",
+        "172_rides": "165",
+        "temp": "35",
+        "precip": "0"
+    },
+    "2016-12-25": {
+        "day_type": "weekend",
+        "day_of_week": "Sunday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "54",
+        "172_rides": "78",
+        "temp": "33",
+        "precip": "0.09"
+    },
+    "2016-12-26": {
+        "day_type": "weekday",
+        "day_of_week": "Monday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "91",
+        "172_rides": "243",
+        "temp": "45",
+        "precip": "0.23"
+    },
+    "2016-12-27": {
+        "day_type": "weekday",
+        "day_of_week": "Tuesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "425",
+        "172_rides": "588",
+        "temp": "28",
+        "precip": "0"
+    },
+    "2016-12-28": {
+        "day_type": "weekday",
+        "day_of_week": "Wednesday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "570",
+        "172_rides": "622",
+        "temp": "30",
+        "precip": "0"
+    },
+    "2016-12-29": {
+        "day_type": "weekday",
+        "day_of_week": "Thursday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "666",
+        "172_rides": "723",
+        "temp": "34",
+        "precip": "0"
+    },
+    "2016-12-30": {
+        "day_type": "weekday",
+        "day_of_week": "Friday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "586",
+        "172_rides": "655",
+        "temp": "29",
+        "precip": "0"
+    },
+    "2016-12-31": {
+        "day_type": "weekend",
+        "day_of_week": "Saturday",
+        "quarter": "Unknown Date Range",
+        "171_rides": "112",
+        "172_rides": "263",
+        "temp": "35",
+        "precip": "0"
+    }
+}
