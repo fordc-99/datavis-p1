@@ -7,7 +7,7 @@ import {axisLeft, axisBottom} from 'd3-axis';
 export function barVis(svg, importData) {
   const width = 5000;
   const height = 36 / 24 * width;
-  const margin = {top: 100, left: 560, right: 100, bottom: 550};
+  const margin = {top: 100, left: 600, right: 100, bottom: 400};
 
   const plotWidth = (width - margin.left - margin.right) / 2;
   const plotHeight = height - margin.top - margin.bottom;
@@ -32,7 +32,7 @@ export function barVis(svg, importData) {
     .range([0, 1])
     .nice();
 
-  // x-axis base
+  // x-axis base - added first to simulate low z-index
   svg.append('line')
     .attr('x1', margin.left)
     .attr('y1', 2 * margin.top + plotHeight)
@@ -41,7 +41,7 @@ export function barVis(svg, importData) {
     .attr('stroke', '#000')
     .attr('stroke-width', 18);
 
-  // y-axis base
+  // y-axis base - added first to simulate low z-index
   svg.append('line')
     .attr('x1', margin.left)
     .attr('y1', margin.top)
@@ -50,7 +50,7 @@ export function barVis(svg, importData) {
     .attr('stroke', '#000')
     .attr('stroke-width', 18);
 
-  // x-axis
+  // x-axis with gridlines
   const rAxis = svg.append('g')
     .attr('transform', `translate(${margin.left}, ${2 * margin.top + plotHeight})`)
     .call(axisBottom(r)

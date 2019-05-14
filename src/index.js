@@ -1,4 +1,5 @@
 import {barVis} from './bar';
+import {bgLake, bgLand} from './bg';
 import {select} from 'd3-selection';
 
 // if the data you are going to import is small, then you can import it using es6 import
@@ -30,5 +31,8 @@ function myVis(data) {
   const svg = select('.vis-container').attr('width', width).attr('height', height);
 
   // EXAMPLE FIRST FUNCTION
+  bgLand(svg);
+  bgLake(svg);
+  
   barVis(svg, data);
 }
