@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "d3": "^5.9.2",
     "domready": "^1.0.8"
   },
   "devDependencies": {
