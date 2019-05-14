@@ -1,13 +1,55 @@
 import {getDomain} from './utils';
-import {scaleLinear, scaleBand} from 'd3-scale';
+import {scaleLinear, scaleBand, scaleLog} from 'd3-scale';
 import {hcl} from 'd3-color';
 import {ascending} from 'd3';
 import {axisLeft, axisBottom} from 'd3-axis';
 
-export function barVis(svg, importData) {
-  const width = 5000;
-  const height = 36 / 24 * width;
-  const margin = {top: 100, left: 600, right: 100, bottom: 400};
+function buildLegend(svg, plotHeight, plotWidth) {
+  const legendWidth = 1300;
+  const legendHeight = 500;
+  const offsetLeft = plotWidth + 650 - legendWidth + 200;
+  const offsetHeight = plotHeight - legendHeight - 400;
+
+  const lMargin = {top: 50, left: 60, right: 60, bottom: 50};
+
+  const g = svg.append('g').attr('transform', `translate(${offsetLeft}, ${offsetHeight})`);
+
+  g.append('rect')
+    .attr('x', 0)
+    .attr('y', 0)
+    .attr('width', legendWidth)
+    .attr('height', legendHeight)
+    .attr('stroke', '#000')
+    .attr('stroke-width', 8)
+    .attr('fill', '#FCFCFB');
+
+  g.append('text')
+    .attr('x', lMargin.left)
+    .attr('y', lMargin.top + 60)
+    .attr('font-size', '60px')
+    .style('font-family', 'sans-serif')
+    .style('letter-spacing', '0.1em')
+    .style('font-weight', 'bold')
+    .text('LEGEND');
+
+  const grWidth = legendWidth - lMargin.left - lMargin.right;
+
+  const grMap = d => hcl(d / grWidth * 300, 30, 20 + d / grWidth * 60);
+  const grData = [...new Array(grWidth)].map((d, i) => i);
+
+  g.selectAll('gradient').data(grData)
+    .enter().append('line')
+    .attr('class', 'gradient')
+    .attr('x1', d => (d + lMargin.left))
+    .attr('x2', d => (d + lMargin.left))
+    .attr('y1', lMargin.top + 110)
+    .attr('y2', lMargin.top + 260)
+    .attr('stroke', d => grMap(d));
+
+}
+
+export function barVis(svg, importData, width, height) {
+  const margin = {top: 100, left: 650, right: 100, bottom: 400};
 
   const plotWidth = (width - margin.left - margin.right) / 2;
   const plotHeight = height - margin.top - margin.bottom;
@@ -24,19 +66,17 @@ export function barVis(svg, importData) {
 
   const r = scaleLinear()
     .domain([0, rideDomain.max])
-    .range([0, plotWidth])
-    .nice();
+    .range([0, plotWidth]);
 
-  const inc = scaleLinear()
+  const inc = scaleLog()
     .domain([incomeDomain.min, incomeDomain.max])
-    .range([0, 1])
-    .nice();
+    .range([0, 1]);
 
   // x-axis base - added first to simulate low z-index
   svg.append('line')
     .attr('x1', margin.left)
     .attr('y1', 2 * margin.top + plotHeight)
-    .attr('x2', margin.left + plotWidth)
+    .attr('x2', margin.left + plotWidth - 20)
     .attr('y2', 2 * margin.top + plotHeight)
     .attr('stroke', '#000')
     .attr('stroke-width', 18);
@@ -53,8 +93,7 @@ export function barVis(svg, importData) {
   // x-axis with gridlines
   const rAxis = svg.append('g')
     .attr('transform', `translate(${margin.left}, ${2 * margin.top + plotHeight})`)
-    .call(axisBottom(r)
-      .tickSize(-(plotHeight + margin.top), 0, 0));
+    .call(axisBottom(r).tickSize(-(plotHeight + margin.top), 0, 0));
 
   // x-axis text
   rAxis.selectAll('text')
@@ -70,6 +109,14 @@ export function barVis(svg, importData) {
     .attr('stroke', '#000')
     .attr('stroke-width', 0.2 * st.bandwidth());
 
+  rAxis.selectAll('.tick')
+    .selectAll('line')
+    .attr('stroke-width', 2);
+
+  // remove outer ticks
+  rAxis.selectAll('path')
+    .remove();
+
   // bars
   const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
 
@@ -82,7 +129,7 @@ export function barVis(svg, importData) {
       .attr('y', d => st(d.station))
       .attr('height', st.bandwidth())
       .attr('rx', 0.5 * st.bandwidth() / 2)
-      .attr('fill', d => hcl(inc(d.med_income) * 300, 40, 20 + inc(d.med_income) * 60));
+      .attr('fill', d => hcl(inc(d.med_income) * 300, 30, 20 + inc(d.med_income) * 60));
 
   // y-axis
   const stAxis = svg.append('g')
@@ -114,17 +161,7 @@ export function barVis(svg, importData) {
     .style('font-family', 'sans-serif')
     .style('font-weight', 'bold')
     .style('letter-spacing', '0.1em')
-    .text('AVERAGE DAILY RIDES');
+    .text('AVERAGE DAILY RIDES (2016)');
 
-  // y-axis label
-  svg.append('text')
-    .attr('transform', 'rotate (-90)')
-    .attr('y', 100)
-    .attr('x', -(margin.top + 20))
-    .attr('font-size', '55px')
-    .style('text-anchor', 'end')
-    .style('font-family', 'sans-serif')
-    .style('font-weight', 'bold')
-    .style('letter-spacing', '0.1em')
-    .text('STATION NAME');
+  buildLegend(svg, plotHeight, plotWidth);
 }

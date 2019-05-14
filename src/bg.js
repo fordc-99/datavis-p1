@@ -13,7 +13,6 @@ export function bgLand(svg) {
 
 export function bgLake(svg) {
   const width = 5000;
-  const height = 36 / 24 * width;
 
   // lake
   svg.append('circle')
