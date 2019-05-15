@@ -21,11 +21,9 @@ domReady(() => {
 
   stationVis(AVG_DATA, svg);
 
-
   fetch('./data/data.json')
     .then(response => response.json())
     .then(data => phaseDiagram(data, svg));
-  
 
   Promise.all([fetch('./data/cta_monthly_totals.json').then(response => response.json()),
     fetch('./data/cta_annual_totals.json')
