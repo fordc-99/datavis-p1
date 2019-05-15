@@ -41,7 +41,7 @@ function buildAxis(r, g) {
 export function phaseDiagram(importData, svg) {
 
   // create g
-  const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top}`);
+  const g = svg.append('g');
 
   g.append('circle')
     .attr('cx', centerX)

@@ -33,7 +33,6 @@ domReady(() => {
   fetch('./data/cta_data_avg_2.json')
     .then(response => response.json())
     .then(data => visScatterIncome(svg, data));
-
 });
 
 function prepVis() {
