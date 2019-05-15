@@ -10,7 +10,7 @@ function buildLegend(svg, plotHeight, plotWidth, incDomain) {
   const legendWidth = 650;
   const legendHeight = 1300;
   const offsetLeft = plotWidth + 650 - legendWidth;
-  const offsetHeight = plotHeight - legendHeight - 150;
+  const offsetHeight = plotHeight - legendHeight - 90;
   const lMargin = {top: 50, left: 65, right: 65, bottom: 50};
 
   // creating legend box
