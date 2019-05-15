@@ -2,6 +2,12 @@ import {scaleLinear, scaleTime} from 'd3-scale';
 import {axisBottom, axisLeft} from 'd3-axis';
 import {line} from 'd3-shape';
 import {annotation, annotationLabel} from 'd3-svg-annotation';
+import {timeFormat} from 'd3-time-format';
+
+const margin = {top: 3000, left: 3000, right: 200, bottom: 100};
+
+const width = 5000 - margin.left - margin.right;
+const height = width;
 
 export function getJsonsScatterTime() {
   Promise.all([fetch('./data/cta_monthly_totals.json').then(response => response.json()),
@@ -32,8 +38,8 @@ export function getYDomainScatterTime(data) {
   }, {min: Infinity, max: -Infinity});
 }
 
-function buildLegend(groupNames) {
-  const h = svg.append('g').attr('transform', `translate(${width * 0.7}, ${height * 0.8})`);
+function buildLegend(g, groupNames) {
+  const h = g.append('g').attr('transform', `translate(${width * 0.7}, ${height * 0.8})`);
   h.selectAll('.point').data(groupNames)
     .enter().append('circle')
     .attr('cx', 0)
@@ -52,10 +58,6 @@ function buildLegend(groupNames) {
 export function visScatterTime(svg, datasets) {
   const data = datasets[0];
   const annualData = datasets[1];
-  const margin = {top: 3000, left: 3000, right: 200, bottom: 100};
-
-  const width = 5000 - margin.left - margin.right;
-  const height = 24 / 36 * width;
 
   const xDom = getTimeDomainScatterTime(data);
   const yDom = getYDomainScatterTime(data);
@@ -72,16 +74,16 @@ export function visScatterTime(svg, datasets) {
   g.selectAll('.yearlypoint').data(annualData)
     .enter().append('circle')
       .attr('class', 'point')
-      .attr('r', d => 15)
-      .attr('fill', d => '#B03A2E')
+      .attr('r', d => 12)
+      .attr('fill', d => '#CA2F3E')
       .attr('cx', d => x(new Date(d.year)))
       .attr('cy', d => y(d.total_rides / 12));
 
   g.selectAll('.monthlypoint').data(data)
     .enter().append('circle')
       .attr('class', 'point')
-      .attr('r', d => 15)
-      .attr('fill', d => '#1A5276')
+      .attr('r', d => 12)
+      .attr('fill', d => '#1E78B5')
       .attr('cx', d => x(new Date(d.date)))
       .attr('cy', d => y(d.total_rides));
 
@@ -94,11 +96,11 @@ export function visScatterTime(svg, datasets) {
     .datum(annualData)
     .attr('d', lineEval)
     .attr('fill', 'none')
-    .attr('stroke', '#B03A2E')
-    .attr('stroke-width', '2px');
+    .attr('stroke', '#CA2F3E')
+    .attr('stroke-width', 8);
 
-  g.append('g')
-  .call(axisLeft(y));
+  const yAxis = g.append('g')
+    .call(axisLeft(y));
 
   g.append('g')
     .call(axisBottom(x))
@@ -126,7 +128,9 @@ export function visScatterTime(svg, datasets) {
 
   }
 
-  buildLegend([{color: '#1A5276', text: 'Total rides per month'}, {color: '#B03A2E', text: 'Average rides per month by year'}]);
+  buildLegend(g, [
+    {color: '#1A5276', text: 'Total rides per month'},
+    {color: '#B03A2E', text: 'Average rides per month by year'}]);
 
   const annotations = [{
     note: {
@@ -152,7 +156,7 @@ export function visScatterTime(svg, datasets) {
       y: d => y(Number(d.totalRides))
     })
     .accessorsInverse({
-      date: d => timeFormatter(x.invert(d.x)),
+      date: d => timeFormat(x.invert(d.x)),
       high: d => y.invert(d.y)
     })
     .annotations(annotations);
