@@ -16,8 +16,8 @@ export function bgLake(svg) {
 
   // lake
   svg.append('circle')
-    .attr('cx', width * 4.94)
+    .attr('cx', width * 5.43)
     .attr('cy', -0.1 * width)
-    .attr('r', 4.5 * width)
+    .attr('r', 5 * width)
     .attr('fill', '#EEF6FE');
 }

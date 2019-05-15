@@ -9,7 +9,7 @@ function buildLegend(svg, plotHeight, plotWidth, incDomain) {
   // setting constants
   const legendWidth = 650;
   const legendHeight = 1300;
-  const offsetLeft = plotWidth + 650 - legendWidth + 150;
+  const offsetLeft = plotWidth + 650 - legendWidth;
   const offsetHeight = plotHeight - legendHeight - 150;
   const lMargin = {top: 50, left: 65, right: 65, bottom: 50};
 
@@ -82,7 +82,7 @@ function buildLegend(svg, plotHeight, plotWidth, incDomain) {
 export function barVis(svg, importData, width, height) {
   const margin = {top: 100, left: 650, right: 100, bottom: 400};
 
-  const plotWidth = (width - margin.left - margin.right) / 2;
+  const plotWidth = (width - margin.left - margin.right) / 2 - 300;
   const plotHeight = height - margin.top - margin.bottom;
 
   const data = importData.sort((a, b) => ascending(a.order, b.order));
@@ -192,7 +192,7 @@ export function barVis(svg, importData, width, height) {
     .style('font-family', 'sans-serif')
     .style('font-weight', 'bold')
     .style('letter-spacing', '0.1em')
-    .text('AVERAGE DAILY RIDES (2016)');
+    .text('AVERAGE DAILY RIDERSHIP (2016)');
 
   const stAxisLab = [
     {content: 'STATION', y: 0},
