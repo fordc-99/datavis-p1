@@ -3,19 +3,45 @@ import {interpolateRgb} from 'd3-interpolate';
 import {arc, pie} from 'd3-shape';
 import {getDomain} from './utils';
 
+const margin = {top: 550, left: 2600, right: 100, bottom: 100};
+const plotWidth = 5000 - margin.left - margin.right;
+const plotHeight = plotWidth;
+const radius = plotHeight / 2;
+
+const centerX = margin.left + plotWidth / 2;
+const centerY = margin.top + plotHeight / 2;
+
+function buildAxis(r, g) {
+  const ticks = r.ticks();
+
+  g.selectAll('radial-ticks').data(ticks)
+    .enter().append('circle')
+      .attr('class', 'radial-ticks')
+      .attr('cx', centerX)
+      .attr('cy', centerY)
+      .attr('r', d => r(d))
+      .attr('stroke', '#333')
+      .attr('stroke-width', 3)
+      .style('fill-opacity', 0);
+
+  g.selectAll('radial-tick-labels').data(ticks)
+    .enter().append('text')
+      .attr('class', 'radial-tick-labels')
+      .attr('x', centerX)
+      .attr('y', d => centerY - r(d) - 45 / 2)
+      .attr('font-size', '45px')
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 10)
+      .style('font-family', 'sans-serif')
+      .style('text-anchor', 'middle')
+      .style('paint-order', 'stroke')
+      .text(d => d);
+}
+
 export function phaseDiagram(importData, svg) {
-  // constants
-  const margin = {top: 550, left: 2600, right: 100, bottom: 100};
-  const plotWidth = 5000 - margin.left - margin.right;
-  const plotHeight = plotWidth;
-  const radius = plotHeight / 2;
 
   // create g
   const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top}`);
-
-  // background
-  const centerX = margin.left + plotWidth / 2;
-  const centerY = margin.top + plotHeight / 2;
 
   g.append('circle')
     .attr('cx', centerX)
@@ -29,7 +55,7 @@ export function phaseDiagram(importData, svg) {
   const tempDomain = getDomain(importData, 'temp');
   const riderDomain = getDomain(importData, 'ridership');
 
-  const fillScale = scaleLinear()
+  const r = scaleLinear()
     .domain([0, riderDomain.max])
     .range([0, radius - 50]);
 
@@ -47,7 +73,7 @@ export function phaseDiagram(importData, svg) {
 
   const arcH = arc()
     .innerRadius(0)
-    .outerRadius(d => fillScale(d.data.ridership));
+    .outerRadius(d => r(d.data.ridership));
 
   const pieH = pie()
     .value(d => d.value);
@@ -60,19 +86,14 @@ export function phaseDiagram(importData, svg) {
   arcs.append('path')
     .attr('fill', d => c(d.data.temp))
     .attr('d', arcH);
+
+  buildAxis(r, g);
 }
 
 // uses './data/data.json'
 export function dailyPhaseDiagram(data, svg) {
-  const margin = {top: 550, left: 2775, right: 100, bottom: 100};
-  const plotWidth = 5000 - margin.left - margin.right;
-  const plotHeight = plotWidth;
-  const radius = plotHeight / 2;
 
   const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top}`);
-
-  const centerX = margin.left + plotWidth / 2;
-  const centerY = margin.top + plotHeight / 2;
 
   const weekday = [1, 2, 3, 4, 5];
   const weekend = [6, 7];
