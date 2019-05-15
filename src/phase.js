@@ -3,7 +3,7 @@ import {interpolateRgb} from 'd3-interpolate';
 import {arc, pie} from 'd3-shape';
 import {getDomain} from './utils';
 
-const margin = {top: 550, left: 2600, right: 100, bottom: 100};
+const margin = {top: 550, left: 2200, right: 100, bottom: 100};
 const plotWidth = 5000 - margin.left - margin.right;
 const plotHeight = plotWidth;
 const radius = plotHeight / 2;

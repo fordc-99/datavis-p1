@@ -38,6 +38,25 @@ export function getYDomainScatterTime(data) {
   }, {min: Infinity, max: -Infinity});
 }
 
+function buildLabels(g) {
+  g.append('text')
+    .attr('text-anchor', 'middle')
+    .attr('x', width / 2)
+    .attr('y', height + margin.bottom - 10)
+    .attr('font-style', 'italic')
+    .attr('font-size', '16px')
+    .text('Date');
+
+  g.append('text')
+    .attr('text-anchor', 'middle')
+    .attr('x', (-height) / 2)
+    .attr('y', -margin.left / 2 - 30)
+    .attr('font-style', 'italic')
+    .attr('font-size', '16px')
+    .attr('transform', 'rotate(-90)')
+    .text('Riders');
+}
+
 function buildLegend(g, groupNames) {
   const h = g.append('g').attr('transform', `translate(${width * 0.7}, ${height * 0.8})`);
   h.selectAll('.point').data(groupNames)
@@ -66,7 +85,7 @@ export function visScatterTime(svg, datasets) {
     .domain([new Date(xDom.min), new Date(xDom.max)])
     .range([0, width]);
   const y = scaleLinear()
-    .domain([yDom.min, yDom.max])
+    .domain([yDom.min / 1000, yDom.max / 1000])
     .range([height, 0])
     .nice();
   const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
@@ -77,7 +96,7 @@ export function visScatterTime(svg, datasets) {
       .attr('r', d => 12)
       .attr('fill', d => '#CA2F3E')
       .attr('cx', d => x(new Date(d.year)))
-      .attr('cy', d => y(d.total_rides / 12));
+      .attr('cy', d => y(d.total_rides / 12 / 1000));
 
   g.selectAll('.monthlypoint').data(data)
     .enter().append('circle')
@@ -85,12 +104,12 @@ export function visScatterTime(svg, datasets) {
       .attr('r', d => 12)
       .attr('fill', d => '#1E78B5')
       .attr('cx', d => x(new Date(d.date)))
-      .attr('cy', d => y(d.total_rides));
+      .attr('cy', d => y(d.total_rides / 1000));
 
   const lineEval = line()
     .defined(d => d)
     .x(d => x(new Date(d.year)))
-    .y(d => y(d.total_rides / 12));
+    .y(d => y(d.total_rides / 12 / 1000));
 
   g.append('path')
     .datum(annualData)
@@ -100,33 +119,31 @@ export function visScatterTime(svg, datasets) {
     .attr('stroke-width', 8);
 
   const yAxis = g.append('g')
-    .call(axisLeft(y));
+    .call(axisLeft(y)
+      .ticks(9));
 
-  g.append('g')
+  yAxis.select('path')
+    .style('stroke', '#000')
+    .style('stroke-width', '15px');
+
+  yAxis.selectAll('line')
+    .style('stroke', '#000')
+    .style('stroke-width', '15px');
+
+  yAxis.selectAll('text')
+    .attr('y', 0)
+    .style('letter-spacing', '0.1em')
+    .attr('font-size', '50px');
+
+  const xAxis = g.append('g')
     .call(axisBottom(x))
     .attr('transform', `translate(0,${height})`);
 
-  buildLabels();
+  xAxis.select('path')
+    .style('stroke', '#000')
+    .style('stroke-width', '15px');
 
-  function buildLabels() {
-    g.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('x', width / 2)
-      .attr('y', height + margin.bottom - 10)
-      .attr('font-style', 'italic')
-      .attr('font-size', '16px')
-      .text('Date');
-
-    g.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('x', (-height) / 2)
-      .attr('y', -margin.left / 2 - 30)
-      .attr('font-style', 'italic')
-      .attr('font-size', '16px')
-      .attr('transform', 'rotate(-90)')
-      .text('Riders');
-
-  }
+  buildLabels(g);
 
   buildLegend(g, [
     {color: '#1A5276', text: 'Total rides per month'},
