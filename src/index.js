@@ -3,6 +3,8 @@ import {bgLake, bgLand} from './bg';
 import {title} from './title';
 import {phaseDiagram} from './phase';
 import {visScatterTime} from './monthly_rides';
+import {visScatterIncome} from './scatter_income';
+
 import {select} from 'd3-selection';
 
 import AVG_DATA from '../app/data/cta_data_avg.json';
@@ -29,6 +31,11 @@ domReady(() => {
     fetch('./data/cta_annual_totals.json')
     .then(response => response.json())])
     .then(data => visScatterTime(svg, data));
+
+  fetch('./data/cta_data_avg_2.json')
+    .then(response => response.json())
+    .then(data => visScatterIncome(svg, data));
+
 });
 
 function prepVis() {
