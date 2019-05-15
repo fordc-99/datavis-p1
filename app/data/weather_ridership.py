@@ -60,6 +60,7 @@ def main():
                     (data[weather_date.strftime("%Y-%m-%d")])['temp'] = row[3]
 
     # input ridership data from the CTA csv
+    # red line station ids 
     redline_id = ['40080', '40100', '40190', '40240', '40260', 
                   '40330', '40340', '40450', '40540', '40560', 
                   '40630', '40650', '40760', '40770', '40880', 
@@ -68,7 +69,7 @@ def main():
                   '41300', '41320', '41380', '41400', '41420', 
                   '41430', '41450', '41490']
     max = 0
-    with open('cta_l_ridership.csv') as cta_csv:
+    with open('cta_jsons/cta_data.csv') as cta_csv:
         cta_reader = csv.reader(cta_csv, delimiter=',')
         for row in cta_reader:
             if len(row[2]) > 4:
