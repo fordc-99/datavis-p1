@@ -1,7 +1,6 @@
 import {scaleLinear} from 'd3-scale';
 import {axisBottom, axisLeft} from 'd3-axis';
 import {getDomain} from './utils';
-import {format} from 'd3-format';
 
 const margin = {top: 5610, left: 2900, right: 200, bottom: 100};
 const width = 5000 - margin.left - margin.right;
@@ -16,32 +15,16 @@ function title(svg) {
     .style('font-family', 'sans-serif')
     .style('letter-spacing', '0.1em')
     .style('font-weight', 'bold')
-    .text('RIDERSHIP VS. INCOME AT EACH RED LINE STATION');
+    .text('RIDERSHIP VS. INCOME AT EACH STATION');
 }
 
 function buildLabels(g) {
   const h = g.append('g');
-  h.append('text')
-    .attr('text-anchor', 'middle')
-    .attr('x', width / 2)
-    .attr('y', height + margin.bottom - 10)
-    .attr('font-style', 'italic')
-    .attr('font-size', '16px')
-    .text('Median Household Income for Zipcode ($)');
-
-  h.append('text')
-    .attr('text-anchor', 'middle')
-    .attr('x', (-height) / 2)
-    .attr('y', -margin.left / 2 - 20)
-    .attr('font-style', 'italic')
-    .attr('font-size', '16px')
-    .attr('transform', 'rotate(-90)')
-    .text('Daily Riders');
 
   h.append('text')
     .attr('text-anchor', 'middle')
     .attr('x', width / 2)
-    .attr('y', height + margin.bottom + 70)
+    .attr('y', height + margin.bottom + 130)
     .attr('font-size', '55px')
     .style('font-family', 'sans-serif')
     .style('font-weight', 'bold')
@@ -62,8 +45,8 @@ function buildLabels(g) {
 
 function buildAxes(g, x, y) {
   const yAxis = g.append('g')
-    .call(axisLeft(y).tickSize(30, 0, 0)
-    .tickFormat(d => d / 1000 + 'k'));
+    .call(axisLeft(y).tickSize(50, 0, 0)
+    .tickFormat(d => `${d / 1000}k`));
 
   yAxis.select('path')
     .style('stroke', '#000')
@@ -74,14 +57,14 @@ function buildAxes(g, x, y) {
     .style('stroke-width', '12px');
 
   yAxis.selectAll('text')
-    .attr('transform', 'translate(-20, 0)')
+    .attr('transform', 'translate(-30, 0)')
     .style('letter-spacing', '0.1em')
     .attr('font-size', '50px');
 
   const xAxis = g.append('g')
     .call(axisBottom(x)
       .ticks(5)
-      .tickSize(30, 0, 0)
+      .tickSize(50, 0, 0)
       .tickSizeOuter(0))
     .attr('transform', `translate(0,${height})`);
 
@@ -94,7 +77,7 @@ function buildAxes(g, x, y) {
     .style('stroke-width', '12px');
 
   xAxis.selectAll('text')
-    .attr('transform', 'translate(0, 20)')
+    .attr('transform', 'translate(0, 30)')
     .style('letter-spacing', '0.1em')
     .attr('font-size', '50px');
 }

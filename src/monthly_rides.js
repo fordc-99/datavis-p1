@@ -62,7 +62,7 @@ function buildAxes(g, x, y) {
     .attr('font-size', '50px');
 
   const xAxis = g.append('g')
-    .call(axisBottom(x).tickSize(30, 0, 0)
+    .call(axisBottom(x).tickSize(50, 0, 0)
       .tickSizeOuter(0))
     .attr('transform', `translate(0,${height})`);
 
@@ -75,7 +75,7 @@ function buildAxes(g, x, y) {
     .style('stroke-width', '12px');
 
   xAxis.selectAll('text')
-    .attr('transform', 'translate(0, 20)')
+    .attr('transform', 'translate(0, 30)')
     .style('letter-spacing', '0.1em')
     .attr('font-size', '50px');
 }
@@ -84,7 +84,7 @@ function buildLabels(g) {
   g.append('text')
     .attr('text-anchor', 'middle')
     .attr('x', width / 2)
-    .attr('y', height + margin.bottom + 70)
+    .attr('y', height + margin.bottom + 130)
     .attr('font-size', '55px')
     .style('font-family', 'sans-serif')
     .style('font-weight', 'bold')
@@ -94,7 +94,7 @@ function buildLabels(g) {
   g.append('text')
     .attr('text-anchor', 'middle')
     .attr('x', (-height) / 2)
-    .attr('y', -220)
+    .attr('y', -210)
     .attr('transform', 'rotate(-90)')
     .attr('font-size', '55px')
     .style('font-family', 'sans-serif')

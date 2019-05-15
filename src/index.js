@@ -61,7 +61,7 @@ function stationVis(data, svg) {
     .style('font-family', 'sans-serif')
     .style('letter-spacing', '0.1em')
     .style('font-weight', 'bold')
-    .text('AVERAGE DAILY RIDERSHIP ALONG THE RED LINE');
+    .text('RIDERSHIP ALONG THE RED LINE');
 
   barVis(barSvg, data, width, height - 550);
 }
