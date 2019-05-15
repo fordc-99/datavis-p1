@@ -29,7 +29,7 @@ function buildAxis(r, g) {
       .attr('class', 'radial-tick-labels')
       .attr('x', centerX)
       .attr('y', d => centerY - r(d) - 45 / 2)
-      .attr('font-size', '45px')
+      .attr('font-size', '50px')
       .attr('stroke', '#fff')
       .attr('stroke-width', 10)
       .style('font-family', 'sans-serif')

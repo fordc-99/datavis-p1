@@ -27,7 +27,6 @@ export function title(svg) {
       .attr('x', 100)
       .attr('y', d => d.y)
       .attr('font-size', d => d.size)
-      .style('text-anchor', 'start')
       .style('font-family', 'sans-serif')
       .style('letter-spacing', d => d.spacing)
       .style('font-weight', d => d.weight)

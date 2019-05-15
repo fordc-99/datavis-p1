@@ -1,10 +1,10 @@
 import {scaleLinear, scaleTime} from 'd3-scale';
-import {axisBottom, axisLeft} from 'd3-axis';
+import {axisBottom, axisRight} from 'd3-axis';
 import {line} from 'd3-shape';
 import {annotation, annotationLabel} from 'd3-svg-annotation';
 import {timeFormat} from 'd3-time-format';
 
-const margin = {top: 3000, left: 3000, right: 200, bottom: 100};
+const margin = {top: 3400, left: 3150, right: 200, bottom: 100};
 
 const width = 5000 - margin.left - margin.right;
 const height = width;
@@ -119,19 +119,20 @@ export function visScatterTime(svg, datasets) {
     .attr('stroke-width', 8);
 
   const yAxis = g.append('g')
-    .call(axisLeft(y)
-      .ticks(9));
+    .call(axisRight(y)
+      .tickSize(-30, 0, 0));
 
   yAxis.select('path')
     .style('stroke', '#000')
-    .style('stroke-width', '15px');
+    .style('stroke-width', '12px');
 
   yAxis.selectAll('line')
     .style('stroke', '#000')
-    .style('stroke-width', '15px');
+    .style('stroke-width', '12px');
 
   yAxis.selectAll('text')
     .attr('y', 0)
+    .attr('transform', 'translate(-200, 0)')
     .style('letter-spacing', '0.1em')
     .attr('font-size', '50px');
 

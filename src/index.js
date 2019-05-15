@@ -30,7 +30,7 @@ domReady(() => {
     .then(response => response.json())])
     .then(data => visScatterTime(svg, data));
 
-  fetch('./data/cta_data_avg_2.json')
+  fetch('./data/cta_data_avg.json')
     .then(response => response.json())
     .then(data => visScatterIncome(svg, data));
 });
@@ -52,6 +52,16 @@ function prepVis() {
 
 function stationVis(data, svg) {
   // EXAMPLE FIRST FUNCTION
-  const barSvg = svg.append('g').attr('transform', 'translate(0, 450)');
-  barVis(barSvg, data, width, height - 450);
+  const barSvg = svg.append('g').attr('transform', 'translate(0, 550)');
+
+  svg.append('text')
+    .attr('x', 100)
+    .attr('y', 575)
+    .attr('font-size', '60px')
+    .style('font-family', 'sans-serif')
+    .style('letter-spacing', '0.1em')
+    .style('font-weight', 'bold')
+    .text('AVERAGE DAILY RIDERSHIP ALONG THE RED LINE');
+
+  barVis(barSvg, data, width, height - 550);
 }
