@@ -15,7 +15,7 @@ domReady(() => {
     .then(response => response.json())
     .then(data => myVis(data));
 
-  fetch('./data/cta_data_avg.json')
+  fetch('./data/cta_data_2016red.json')
     .then(response => response.json())
     .then(data => phaseDiagram(data));
 });
