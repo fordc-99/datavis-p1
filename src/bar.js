@@ -5,15 +5,15 @@ import {ascending, format} from 'd3';
 import {axisLeft, axisBottom, axisRight} from 'd3-axis';
 
 function buildLegend(svg, plotHeight, plotWidth, incDomain) {
+  // setting constants
   const legendWidth = 650;
   const legendHeight = 1300;
   const offsetLeft = plotWidth + 650 - legendWidth + 150;
   const offsetHeight = plotHeight - legendHeight - 150;
-
   const lMargin = {top: 50, left: 65, right: 65, bottom: 50};
 
+  // creating legend box
   const g = svg.append('g').attr('transform', `translate(${offsetLeft}, ${offsetHeight})`);
-
   g.append('rect')
     .attr('x', 0)
     .attr('y', 0)
@@ -23,6 +23,7 @@ function buildLegend(svg, plotHeight, plotWidth, incDomain) {
     .attr('stroke-width', 6)
     .attr('fill', '#FCFCFB');
 
+  // legend title
   g.append('text')
     .attr('x', legendWidth / 2)
     .attr('y', lMargin.top + 55)
@@ -32,8 +33,8 @@ function buildLegend(svg, plotHeight, plotWidth, incDomain) {
     .style('letter-spacing', '0.1em')
     .text('MEDIAN INCOME');
 
+  // color map gradient
   const grHeight = legendHeight - lMargin.top - lMargin.bottom - 200;
-
   const grMap = d => hcl(d / grHeight * 300, 30, 20 + d / grHeight * 60);
   const grData = [...new Array(grHeight)].map((d, i) => i);
 
@@ -48,20 +49,23 @@ function buildLegend(svg, plotHeight, plotWidth, incDomain) {
     .attr('y2', d => y(d))
     .attr('stroke', d => grMap(d));
 
+  // color map scale
   const inc = scaleLog()
     .domain([incDomain.min, incDomain.max])
     .range([grHeight, 0]);
 
+  // setting ticks
   const incTicks = [].concat(incDomain.min, inc.ticks(), inc.domain()[1]);
 
   const incAxis = g.append('g')
-    .attr('transform', `translate(${lMargin.left + 300}, ${lMargin.top + 150})`)
+    .attr('transform', `translate(${lMargin.left + 275}, ${lMargin.top + 150})`)
     .call(axisRight(inc)
       .tickFormat(format(',d'))
       .tickValues(incTicks)
-      .tickSize(-300, 0, 0));
+      .tickSize(-275, 0, 0));
 
   incAxis.selectAll('text')
+    .attr('transform', 'translate(25, 0)')
     .style('letter-spacing', '0.1em')
     .style('text-transform', 'uppercase')
     .attr('font-size', '50px');

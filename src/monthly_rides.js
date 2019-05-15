@@ -1,19 +1,8 @@
-import {scaleLinear, scaleBand, scaleTime} from 'd3-scale';
+import {scaleLinear, scaleTime} from 'd3-scale';
 import {axisBottom, axisLeft} from 'd3-axis';
 import {select} from 'd3-selection';
-import {hcl} from 'd3-color';
 import {line} from 'd3-shape';
-import {annotation, annotationCalloutElbow, annotationLabel} from 'd3-svg-annotation';
-
-
-// if the data you are going to import is small, then you can import it using es6 import
-// import MY_DATA from './app/data/example.json'
-// (I tend to think it's best to use screaming snake case for imported json)
-const domReady = require('domready');
-
-domReady(() => {
-  getJsonsScatterTime();
-});
+import {annotation, annotationLabel} from 'd3-svg-annotation';
 
 export function getJsonsScatterTime() {
   Promise.all([fetch('./data/cta_monthly_totals.json').then(response => response.json()),
@@ -44,7 +33,7 @@ export function getYDomainScatterTime(data) {
   }, {min: Infinity, max: -Infinity});
 }
 
-function visScatterTime(datasets) {
+export function visScatterTime(datasets) {
 
   const data = datasets[0];
   const annualData = datasets[1];
@@ -89,7 +78,7 @@ function visScatterTime(datasets) {
       .attr('fill', d => '#1A5276')
       .attr('cx', d => x(new Date(d.date)))
       .attr('cy', d => y(d.total_rides));
-      
+
 
   console.log(annualData);
 
@@ -168,15 +157,15 @@ function visScatterTime(datasets) {
 
   const annotations = [{
     note: {
-      label: "some stations closed between 5/19/2013 and 10/19/2013.",
-      title: "CONSTRUCTION"
+      label: 'some stations closed between 5/19/2013 and 10/19/2013.',
+      title: 'CONSTRUCTION'
     },
     connector: {
-      end: "arrow"
+      end: 'arrow'
     },
     data: {
       date: '2012-11-1',
-      total_rides: 5300000
+      totalRides: 5300000
     },
     dy: 100,
     dx: -100,
@@ -187,7 +176,7 @@ function visScatterTime(datasets) {
     .type(annotationLabel)
     .accessors({
       x: d => x(new Date(d.date)),
-      y: d => y(Number(d.total_rides))
+      y: d => y(Number(d.totalRides))
     })
     .accessorsInverse({
       date: d => timeFormatter(x.invert(d.x)),
@@ -195,11 +184,10 @@ function visScatterTime(datasets) {
     })
     .annotations(annotations);
 
-  svg.append("g")
-    .attr("class", "annotation-group")
+  svg.append('g')
+    .attr('class', 'annotation-group')
     .call(makeAnnotations);
 
-  
+
 
 }
-
