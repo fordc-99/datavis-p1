@@ -24,17 +24,6 @@ domReady(() => {
     .then(data => phaseDiagram(data, svg));
 
   getJsonsScatterTime();
-
-  // Promise.all([fetch('./data/cta_monthly_totals.json').then(response => response.json()),
-  //   fetch('./data/cta_annual_totals.json')
-  //   .then(response => response.json())])
-  //   .then(data => scatterVis(data, svg));
-
-  // const monthData = fetch('./data/cta_monthly_totals.json')
-  //   .then(response => response.json());
-  //
-  // const yearData = fetch('./data/cta_annual_totals.json')
-  //   .then(response => response.json());
 });
 
 function prepVis() {

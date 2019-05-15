@@ -79,7 +79,6 @@ export function visScatterTime(datasets) {
       .attr('cx', d => x(new Date(d.date)))
       .attr('cy', d => y(d.total_rides));
 
-
   console.log(annualData);
 
   const lineEval = line()
@@ -93,7 +92,6 @@ export function visScatterTime(datasets) {
     .attr('fill', 'none')
     .attr('stroke', '#B03A2E')
     .attr('stroke-width', '2px');
-
 
   svg.selectAll('.point').data(annualData)
     .enter().append('circle')
@@ -187,7 +185,4 @@ export function visScatterTime(datasets) {
   svg.append('g')
     .attr('class', 'annotation-group')
     .call(makeAnnotations);
-
-
-
 }
