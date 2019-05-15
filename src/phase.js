@@ -1,4 +1,4 @@
-import {scaleLinear, scaleQuantize} from 'd3-scale';
+import {scaleLinear, scaleQuantize, scaleOrdinal} from 'd3-scale';
 import {interpolateRgb} from 'd3-interpolate';
 import {arc, pie} from 'd3-shape';
 import {getDomain} from './utils';
@@ -62,9 +62,14 @@ export function phaseDiagram(importData, svg) {
   const colors = ['#043971', '#145793', '#1E78B5', '#0999D5', '#6CB9E0', '#B0CDE6', '#DCE8F2', '#FFF',
     '#FFF4DD', '#FDC275', '#FF875C', '#E85647', '#CA2F3E', '#9B1843', '#710733'];
 
+  const BACKGROUND_COLORS = ['#DCDCDC', '#C0C0C0','#DCDCDC','#C0C0C0','#DCDCDC',
+      '#C0C0C0','#DCDCDC','#C0C0C0','#DCDCDC','#C0C0C0','#DCDCDC','#C0C0C0'];
+    
   const c = scaleQuantize()
     .domain([tempDomain.min, tempDomain.max])
     .range(colors);
+
+  const background_scale = scaleOrdinal(BACKGROUND_COLORS);
 
   const phase = g.append('g')
     .attr('transform', `translate(${centerX}, ${centerY})`)
@@ -86,6 +91,38 @@ export function phaseDiagram(importData, svg) {
   arcs.append('path')
     .attr('fill', d => c(d.data.temp))
     .attr('d', arcH);
+
+  const arc_c = arc()
+    .innerRadius(0)
+    .outerRadius(radius);
+
+  const months = [
+    {'label':'January', 'value':2},
+    {'label':'February', 'value':2},
+    {'label':'March', 'value':2},
+    {'label':'April', 'value':2},
+    {'label':'May', 'value':2},
+    {'label':'June', 'value':2},
+    {'label':'July', 'value':2},
+    {'label':'August', 'value':2},
+    {'label':'September', 'value':2},
+    {'label':'October', 'value':2},
+    {'label':'November', 'value':2},
+    {'label':'December', 'value':2},
+  ];
+
+  const pie_c = pie();
+
+  const arcs_bg = g.selectAll('month-slice')
+    .data(pie_c(months))
+    .enter()
+    .append('g')
+    .attr('class', 'month-slice');
+
+  arcs_bg.append('path')
+    .attr('fill', (d, i) => background_scale(i))
+    .attr('opacity', 0.5)
+    .attr('d', arc_c);
 
   buildAxis(r, g);
 }
