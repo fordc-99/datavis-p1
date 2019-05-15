@@ -7,8 +7,8 @@ export function title(svg) {
       weight: 700,
       spacing: 0
     }, {
-      content: 'INCOME, WEATHER AND RIDERSHIP ON THE CTA\'S RED LINE',
-      y: 340,
+      content: 'RIDERSHIP AND INCOME ALONG THE CTA\'S RED LINE',
+      y: 335,
       size: 160,
       weight: 700,
       spacing: 0

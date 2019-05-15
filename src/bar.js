@@ -189,5 +189,21 @@ export function barVis(svg, importData, width, height) {
     .style('letter-spacing', '0.1em')
     .text('AVERAGE DAILY RIDES (2016)');
 
+  const stAxisLab = [
+    {content: 'STATION', y: 0},
+    {content: 'NAME', y: 65}
+  ];
+
+  svg.selectAll('st-axis-label')
+    .data(stAxisLab)
+    .enter().append('text')
+      .attr('x', 100)
+      .attr('y', d => d.y + 1.5 * margin.top)
+      .attr('font-size', '55px')
+      .style('font-family', 'sans-serif')
+      .style('font-weight', 'bold')
+      .style('letter-spacing', '0.1em')
+      .text(d => d.content);
+
   buildLegend(svg, plotHeight, plotWidth, incomeDomain);
 }
