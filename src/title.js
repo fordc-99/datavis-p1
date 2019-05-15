@@ -1,7 +1,7 @@
 export function title(svg) {
   const titleText = [
     {
-      content: 'from howard to 95th:',
+      content: 'from howard to 95th/dan ryan:',
       y: 160,
       size: 100,
       weight: 700,

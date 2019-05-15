@@ -13,14 +13,14 @@ domReady(() => {
   // this is just one example of how to import data. there are lots of ways to do it!
   fetch('./data/cta_data_avg.json')
     .then(response => response.json())
-    .then(data => myVis(data));
+    .then(data => barDiagram(data));
 
-  fetch('./data/cta_data_2016red.json')
+  fetch('./data/data.json')
     .then(response => response.json())
     .then(data => phaseDiagram(data));
 });
 
-function myVis(data) {
+function barDiagram(data) {
   // The posters will all be 24 inches by 36 inches
   // Your graphic can either be portrait or landscape, up to you
   // the important thing is to make sure the aspect ratio is correct.
@@ -43,6 +43,4 @@ function myVis(data) {
 
   const barSvg = svg.append('g').attr('transform', 'translate(0, 450)');
   barVis(barSvg, data, width, height - 450);
-
-  phaseDiagram(data, svg);
 }

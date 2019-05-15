@@ -1,10 +1,10 @@
 import {getDomain} from './utils';
 import {scaleLinear, scaleBand, scaleLog} from 'd3-scale';
 import {hcl} from 'd3-color';
-import {ascending} from 'd3';
-import {axisLeft, axisBottom} from 'd3-axis';
+import {ascending, format} from 'd3';
+import {axisLeft, axisBottom, axisRight} from 'd3-axis';
 
-function buildLegend(svg, plotHeight, plotWidth, incScale) {
+function buildLegend(svg, plotHeight, plotWidth, incDomain) {
   const legendWidth = 650;
   const legendHeight = 1300;
   const offsetLeft = plotWidth + 650 - legendWidth + 150;
@@ -32,20 +32,46 @@ function buildLegend(svg, plotHeight, plotWidth, incScale) {
     .style('letter-spacing', '0.1em')
     .text('MEDIAN INCOME');
 
-  const grHeight = legendHeight - lMargin.top - lMargin.bottom - 100;
+  const grHeight = legendHeight - lMargin.top - lMargin.bottom - 200;
 
   const grMap = d => hcl(d / grHeight * 300, 30, 20 + d / grHeight * 60);
   const grData = [...new Array(grHeight)].map((d, i) => i);
+
+  const y = d => lMargin.top + 150 + grHeight - d;
 
   g.selectAll('gradient').data(grData)
     .enter().append('line')
     .attr('class', 'gradient')
     .attr('x1', lMargin.left)
-    .attr('x2', lMargin.left + 150)
-    .attr('y1', d => lMargin.top + 100 + grHeight - d)
-    .attr('y2', d => lMargin.top + 100 + grHeight - d)
+    .attr('x2', lMargin.left + 200)
+    .attr('y1', d => y(d))
+    .attr('y2', d => y(d))
     .attr('stroke', d => grMap(d));
 
+  const inc = scaleLog()
+    .domain([incDomain.min, incDomain.max])
+    .range([grHeight, 0]);
+
+  const incTicks = [].concat(incDomain.min, inc.ticks(), inc.domain()[1]);
+
+  const incAxis = g.append('g')
+    .attr('transform', `translate(${lMargin.left + 300}, ${lMargin.top + 150})`)
+    .call(axisRight(inc)
+      .tickFormat(format(',d'))
+      .tickValues(incTicks)
+      .tickSize(-300, 0, 0));
+
+  incAxis.selectAll('text')
+    .style('letter-spacing', '0.1em')
+    .style('text-transform', 'uppercase')
+    .attr('font-size', '50px');
+
+  incAxis.selectAll('.tick')
+    .selectAll('line')
+    .attr('stroke-width', 3);
+
+  incAxis.selectAll('path')
+    .remove();
 }
 
 export function barVis(svg, importData, width, height) {
@@ -163,5 +189,5 @@ export function barVis(svg, importData, width, height) {
     .style('letter-spacing', '0.1em')
     .text('AVERAGE DAILY RIDES (2016)');
 
-  buildLegend(svg, plotHeight, plotWidth, inc);
+  buildLegend(svg, plotHeight, plotWidth, incomeDomain);
 }

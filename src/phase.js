@@ -33,7 +33,7 @@ export function phaseDiagram(data) {
     const svg = select('.vis-container');
 
     const g = svg.append('g')
-      .attr('transform', `translate(${centerX}, ${centerY})`)
+      .attr('transform', `translate(${centerX * j}, ${centerY * j})`)
       .attr('width', width)
       .attr('height', height);
 
