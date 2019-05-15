@@ -2,7 +2,7 @@ import {barVis} from './bar';
 import {bgLake, bgLand} from './bg';
 import {title} from './title';
 import {phaseDiagram} from './phase';
-import {getJsonsScatterTime} from './monthly_rides';
+import {visScatterTime} from './monthly_rides';
 import {select} from 'd3-selection';
 
 import AVG_DATA from '../app/data/cta_data_avg.json';
@@ -19,11 +19,16 @@ domReady(() => {
 
   stationVis(AVG_DATA, svg);
 
+
   fetch('./data/data.json')
     .then(response => response.json())
     .then(data => phaseDiagram(data, svg));
+  
 
-  getJsonsScatterTime();
+  Promise.all([fetch('./data/cta_monthly_totals.json').then(response => response.json()),
+    fetch('./data/cta_annual_totals.json')
+    .then(response => response.json())])
+    .then(data => visScatterTime(svg, data));
 });
 
 function prepVis() {

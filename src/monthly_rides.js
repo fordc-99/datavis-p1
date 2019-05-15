@@ -8,7 +8,7 @@ export function getJsonsScatterTime() {
   Promise.all([fetch('./data/cta_monthly_totals.json').then(response => response.json()),
     fetch('./data/cta_annual_totals.json')
     .then(response => response.json())])
-    .then(data => getTimeDomainScatterTime(data));
+    .then(data => visScatterTime(data));
 }
 
 export function getTimeDomainScatterTime(data) {
@@ -33,7 +33,7 @@ export function getYDomainScatterTime(data) {
   }, {min: Infinity, max: -Infinity});
 }
 
-export function visScatterTime(datasets) {
+export function visScatterTime(svg, datasets) {
 
   const data = datasets[0];
   const annualData = datasets[1];
@@ -50,20 +50,13 @@ export function visScatterTime(datasets) {
   const width = 36 / 24 * height;
   const margin = {top: 10, left: 100, right: 10, bottom: 60};
 
-  document.getElementById('vis-container').style.width = (width + margin.left + margin.right) + 'px';
-  document.getElementById('vis-container').style.height = (height + margin.top + margin.bottom) + 'px';
+  const x = scaleTime().domain([new Date(getTimeDomainScatterTime(data).min),
+    new Date(getTimeDomainScatterTime(data).max)]).range([0, width]);
+  const y = scaleLinear().domain([0, getYDomainScatterTime(data).max]).range([height, 0]);
+  const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
 
-  const x = scaleTime().domain([new Date(getTimeDomain(data).min),
-    new Date(getTimeDomain(data).max)]).range([0, width]);
-  const y = scaleLinear().domain([0, getYDomain(data).max]).range([height, 0]);
 
-  const svg = select('.vis-container').append('svg')
-    .attr('width', width + margin.left + margin.right)
-    .attr('height', height + margin.top + margin.bottom)
-  .append('g')
-    .attr('transform', `translate(${margin.left},${margin.top})`);
-
-  svg.selectAll('.yearlypoint').data(annualData)
+  g.selectAll('.yearlypoint').data(annualData)
     .enter().append('circle')
       .attr('class', 'point')
       .attr('r', d => 5)
@@ -71,7 +64,7 @@ export function visScatterTime(datasets) {
       .attr('cx', d => x(new Date(d.year)))
       .attr('cy', d => y(d.total_rides / 12));
 
-  svg.selectAll('.monthlypoint').data(data)
+  g.selectAll('.monthlypoint').data(data)
     .enter().append('circle')
       .attr('class', 'point')
       .attr('r', d => 5)
@@ -79,42 +72,28 @@ export function visScatterTime(datasets) {
       .attr('cx', d => x(new Date(d.date)))
       .attr('cy', d => y(d.total_rides));
 
-  console.log(annualData);
-
   const lineEval = line()
     .defined(d => d)
     .x(d => x(new Date(d.year)))
     .y(d => y(d.total_rides / 12));
 
-  svg.append('path')
+  g.append('path')
     .datum(annualData)
     .attr('d', lineEval)
     .attr('fill', 'none')
     .attr('stroke', '#B03A2E')
     .attr('stroke-width', '2px');
 
-  svg.selectAll('.point').data(annualData)
-    .enter().append('circle')
-      .attr('class', 'point')
-      .attr('r', d => 100)
-      .attr('fill', d => 'red')
-      .attr('cx', d => {
-        console.log(x(new Date(d.year)));
-      }).attr('cy', d => {
-        console.log(y(d.total_rides / 12));
-      });
-
-  svg.append('g')
+  g.append('g')
   .call(axisLeft(y));
 
-  svg.append('g')
+  g.append('g')
     .call(axisBottom(x))
     .attr('transform', `translate(0,${height})`);
 
   buildLabels();
 
   function buildLabels() {
-    const g = svg.append('g');
     g.append('text')
       .attr('text-anchor', 'middle')
       .attr('x', width / 2)
@@ -137,15 +116,15 @@ export function visScatterTime(datasets) {
   buildLegend([{color: '#1A5276', text: 'Total rides per month'}, {color: '#B03A2E', text: 'Average rides per month by year'}]);
 
   function buildLegend(groupNames) {
-    const g = svg.append('g').attr('transform', `translate(${width * 0.7}, ${height * 0.8})`);
-    g.selectAll('.point').data(groupNames)
+    const h = svg.append('g').attr('transform', `translate(${width * 0.7}, ${height * 0.8})`);
+    h.selectAll('.point').data(groupNames)
       .enter().append('circle')
       .attr('cx', 0)
       .attr('cy', (d, i) => i * 40)
       .attr('r', 10)
       .attr('fill', d => d.color);
 
-    g.selectAll('text').data(groupNames)
+    h.selectAll('text').data(groupNames)
       .enter().append('text')
       .attr('font-size', '16px')
       .attr('x', 20)
@@ -184,5 +163,5 @@ export function visScatterTime(datasets) {
 
   svg.append('g')
     .attr('class', 'annotation-group')
-    .call(makeAnnotations);
+    .call(buildAnnotations);
 }
