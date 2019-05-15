@@ -1,7 +1,8 @@
 import {getDomain} from './utils';
 import {scaleLinear, scaleBand, scaleLog} from 'd3-scale';
 import {hcl} from 'd3-color';
-import {ascending, format} from 'd3';
+import {format} from 'd3-format';
+import {ascending} from 'd3-array';
 import {axisLeft, axisBottom, axisRight} from 'd3-axis';
 
 function buildLegend(svg, plotHeight, plotWidth, incDomain) {

@@ -13,7 +13,7 @@ export function title(svg) {
       weight: 700,
       spacing: 0
     }, {
-      content: 'CHRISTINA FORD • HENRY CONNOR HOPCRAFT • ASHLEY WANG',
+      content: 'CHRISTINA FORD • CONNOR HOPCRAFT • ASHLEY WANG',
       y: 450,
       size: 65,
       weight: 400,

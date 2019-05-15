@@ -1,6 +1,5 @@
 import {scaleLinear, scaleTime} from 'd3-scale';
 import {axisBottom, axisLeft} from 'd3-axis';
-import {select} from 'd3-selection';
 import {line} from 'd3-shape';
 import {annotation, annotationLabel} from 'd3-svg-annotation';
 
@@ -33,33 +32,47 @@ export function getYDomainScatterTime(data) {
   }, {min: Infinity, max: -Infinity});
 }
 
-export function visScatterTime(svg, datasets) {
+function buildLegend(groupNames) {
+  const h = svg.append('g').attr('transform', `translate(${width * 0.7}, ${height * 0.8})`);
+  h.selectAll('.point').data(groupNames)
+    .enter().append('circle')
+    .attr('cx', 0)
+    .attr('cy', (d, i) => i * 40)
+    .attr('r', 10)
+    .attr('fill', d => d.color);
 
+  h.selectAll('text').data(groupNames)
+    .enter().append('text')
+    .attr('font-size', '16px')
+    .attr('x', 20)
+    .attr('y', (d, i) => i * 40 + 5)
+    .text(d => d.text);
+}
+
+export function visScatterTime(svg, datasets) {
   const data = datasets[0];
   const annualData = datasets[1];
+  const margin = {top: 3000, left: 3000, right: 200, bottom: 100};
 
-  // The posters will all be 24 inches by 36 inches
-  // Your graphic can either be portrait or landscape, up to you
-  // the important thing is to make sure the aspect ratio is correct.
+  const width = 5000 - margin.left - margin.right;
+  const height = 24 / 36 * width;
 
-  // portrait
-  // const width = 5000;
-  // const height = 36 / 24 * width;
-  // landscape
-  const height = 600;
-  const width = 36 / 24 * height;
-  const margin = {top: 10, left: 100, right: 10, bottom: 60};
+  const xDom = getTimeDomainScatterTime(data);
+  const yDom = getYDomainScatterTime(data);
 
-  const x = scaleTime().domain([new Date(getTimeDomainScatterTime(data).min),
-    new Date(getTimeDomainScatterTime(data).max)]).range([0, width]);
-  const y = scaleLinear().domain([0, getYDomainScatterTime(data).max]).range([height, 0]);
+  const x = scaleTime()
+    .domain([new Date(xDom.min), new Date(xDom.max)])
+    .range([0, width]);
+  const y = scaleLinear()
+    .domain([yDom.min, yDom.max])
+    .range([height, 0])
+    .nice();
   const g = svg.append('g').attr('transform', `translate(${margin.left}, ${margin.top})`);
-
 
   g.selectAll('.yearlypoint').data(annualData)
     .enter().append('circle')
       .attr('class', 'point')
-      .attr('r', d => 5)
+      .attr('r', d => 15)
       .attr('fill', d => '#B03A2E')
       .attr('cx', d => x(new Date(d.year)))
       .attr('cy', d => y(d.total_rides / 12));
@@ -67,7 +80,7 @@ export function visScatterTime(svg, datasets) {
   g.selectAll('.monthlypoint').data(data)
     .enter().append('circle')
       .attr('class', 'point')
-      .attr('r', d => 5)
+      .attr('r', d => 15)
       .attr('fill', d => '#1A5276')
       .attr('cx', d => x(new Date(d.date)))
       .attr('cy', d => y(d.total_rides));
@@ -114,23 +127,6 @@ export function visScatterTime(svg, datasets) {
   }
 
   buildLegend([{color: '#1A5276', text: 'Total rides per month'}, {color: '#B03A2E', text: 'Average rides per month by year'}]);
-
-  function buildLegend(groupNames) {
-    const h = svg.append('g').attr('transform', `translate(${width * 0.7}, ${height * 0.8})`);
-    h.selectAll('.point').data(groupNames)
-      .enter().append('circle')
-      .attr('cx', 0)
-      .attr('cy', (d, i) => i * 40)
-      .attr('r', 10)
-      .attr('fill', d => d.color);
-
-    h.selectAll('text').data(groupNames)
-      .enter().append('text')
-      .attr('font-size', '16px')
-      .attr('x', 20)
-      .attr('y', (d, i) => i * 40 + 5)
-      .text(d => d.text);
-  }
 
   const annotations = [{
     note: {
