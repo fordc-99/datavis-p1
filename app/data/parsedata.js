@@ -1,18 +1,18 @@
 const fs = require('fs');
 
 const rawcta = fs.readFileSync('cta_jsons/cta_data.json');
-var cta_data = JSON.parse(rawcta);
+let ctaData = JSON.parse(rawcta);
 
-const rawzip = fs.readFileSync('cta_jsons/stationToZip.json');  
+const rawzip = fs.readFileSync('cta_jsons/stationToZip.json');
 const redLineZips = JSON.parse(rawzip);
 
-const rawnames = fs.readFileSync('cta_jsons/stationNames.json');  
+const rawnames = fs.readFileSync('cta_jsons/stationNames.json');
 const redLineStops = JSON.parse(rawnames);
 
-const raworder = fs.readFileSync('cta_jsons/stationOrder.json');  
+const raworder = fs.readFileSync('cta_jsons/stationOrder.json');
 const redLineOrder = JSON.parse(raworder);
 
-const rawinc = fs.readFileSync('cta_jsons/stationToZipIncomes.json');  
+const rawinc = fs.readFileSync('cta_jsons/stationToZipIncomes.json');
 const redLineZipInc = JSON.parse(rawinc);
 
 /*
@@ -25,48 +25,38 @@ const redLinePopDens = {'40900' : 11439.03, '41190' : 11439.03, '40100'  : 11439
     '40990' : 12,891.83, '40240' : 11,439.03, '41430' : 11,439.03, '40450' : 11,439.03};
 */
 
-cta_data = cta_data.map(generateElementObj);
-cta_data = cta_data.filter(d => isRed(d));
-cta_data = cta_data.filter(d => d.date.slice(-2) === '16');
-cta_data = groupBy(cta_data, 'station_id');
+ctaData = ctaData.map(generateElementObj);
+ctaData = ctaData.filter(d => isRed(d));
+ctaData = ctaData.filter(d => d.date.slice(-2) === '16');
+ctaData = groupBy(ctaData, 'station_id');
 
-let dataString = JSON.stringify(cta_data);  
+const dataString = JSON.stringify(ctaData);
 fs.writeFileSync('cta_data_2016red.json', dataString);
 
-const keys = Object.keys(cta_data);
-var averages = [];
+const keys = Object.keys(ctaData);
+const averages = [];
 
-keys.forEach(function(elem) {
-  var total = 0;
-  cta_data[elem].forEach(function(sub_elem) {
-    total += Number(sub_elem.rides)
+keys.forEach(elem => {
+  let total = 0;
+  ctaData[elem].forEach(subElem => {
+    total += Number(subElem.rides);
   });
-  var avg = total / cta_data[elem].length;
-  averages.push({station_id : elem, station: redLineStops[elem], order: redLineOrder[elem], med_income : redLineZipInc[elem], avg_rides : avg, zipcode : redLineZips[elem]});
+  const avg = total / ctaData[elem].length;
+  averages.push({stationid: elem, station: redLineStops[elem], order: redLineOrder[elem], medincome: redLineZipInc[elem], avgrides: avg, zipcode: redLineZips[elem]});
 });
 
-let dataString2 = JSON.stringify(averages);  
+const dataString2 = JSON.stringify(averages);
 fs.writeFileSync('cta_data_avg.json', dataString2);
-
-
-
 
 function isRed(element) {
 
-    const redLineStops = ['40900', '41190', '40100', '41300', '40760', '40880', '41380', '40340', '41200',
-    '40770', '40540', '40080', '41420', '41320', '41220', '40650', '40630', '41450', '40330', 
-    '40260', '41090', '40560', '41490', '41400', '41000', '40190', '41230', '41170', '40910', 
-    '40990', '40240', '41430', '40450'];
-
-    if (typeof element === 'undefined') {
-        return false;
-    }
-    if (redLineStops.indexOf(element.station_id) >= 0) {
-        return true;
-    }
-    else {
-        return false;
-    }
+  if (typeof element === 'undefined') {
+    return false;
+  }
+  if (redLineStops.indexOf(element.station_id) >= 0) {
+    return true;
+  }
+  return false;
 }
 
 function groupBy(data, accessorKey) {
@@ -87,10 +77,10 @@ function groupBy(data, accessorKey) {
 }
 
 function generateElementObj(element) {
-    if (typeof element === 'undefined') {
-        return undefined;
-    }
-    const infoString = element['station_id,stationname,date,daytype,rides'].split(',');
-    return {station_id : infoString[0], stationname : infoString[1], date : infoString[2], 
-        daytype : infoString[3], rides: infoString[4]};
+  if (typeof element === 'undefined') {
+    return undefined;
+  }
+  const infoString = element['station_id,stationname,date,daytype,rides'].split(',');
+  return {stationid: infoString[0], stationname: infoString[1], date: infoString[2],
+    daytype: infoString[3], rides: infoString[4]};
 }
