@@ -32,7 +32,8 @@ keys.forEach(elem => {
     total += Number(subElem.rides);
   });
   const avg = total / ctaData[elem].length;
-  averages.push({stationid: elem, station: redLineStops[elem], order: redLineOrder[elem], medincome: redLineZipInc[elem], avgrides: avg, zipcode: redLineZips[elem]});
+  averages.push({stationid: elem, station: redLineStops[elem], order: redLineOrder[elem],
+    medincome: redLineZipInc[elem], avgrides: avg, zipcode: redLineZips[elem]});
 });
 
 const dataString2 = JSON.stringify(averages);

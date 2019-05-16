@@ -34,14 +34,14 @@ Object.keys(ctaDataYears).forEach(elem => {
   }
 });
 
-const dataString2 = JSON.stringify(yearlyTotals);  
+const dataString2 = JSON.stringify(yearlyTotals);
 fs.writeFileSync('cta_annual_totals.json', dataString2);
 
 function isRed(element) {
 
   const redLineStops = ['40900', '41190', '40100', '41300', '40760', '40880', '41380', '40340', '41200',
-    '40770', '40540', '40080', '41420', '41320', '41220', '40650', '40630', '41450', '40330', 
-    '40260', '41090', '40560', '41490', '41400', '41000', '40190', '41230', '41170', '40910', 
+    '40770', '40540', '40080', '41420', '41320', '41220', '40650', '40630', '41450', '40330',
+    '40260', '41090', '40560', '41490', '41400', '41000', '40190', '41230', '41170', '40910',
     '40990', '40240', '41430', '40450'];
 
   if (typeof element === 'undefined') {
@@ -50,9 +50,7 @@ function isRed(element) {
   if (redLineStops.indexOf(element.station_id) >= 0) {
     return true;
   }
-  else {
-    return false;
-  }
+  return false;
 }
 
 function groupBy(data, accessorKey) {
@@ -76,8 +74,10 @@ function generateElementObj(element) {
   if (typeof element === 'undefined') {
     return undefined;
   }
-  const infoString = 
-      element['station_id,stationame,month_beginning,avg_weekday_rides,avg_saturday_rides,avg_sunday-holiday_rides,monthtotal']
+  const infoString =
+      element['station_id,stationame,month_beginning,avg_weekday_rides,' +
+      'avg_saturday_rides,avg_sunday-holiday_rides,monthtotal']
       .split(',');
-  return {stationid: infoString[0], stationname: infoString[1], monthbeginning: infoString[2], monthtotal: infoString[6]};
+  return {stationid: infoString[0], stationname: infoString[1],
+    monthbeginning: infoString[2], monthtotal: infoString[6]};
 }
