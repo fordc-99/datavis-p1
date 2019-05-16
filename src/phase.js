@@ -198,7 +198,6 @@ function buildLegend(g, colors, tDom) {
     .attr('x', lMargin.left)
     .attr('y', lMargin.top + 40)
     .attr('font-size', 45)
-    .attr('font-weight', 600)
     .style('font-family', 'sans-serif')
     .style('letter-spacing', '0.1em')
     .text('TEMPERATURE (˚F)');
@@ -223,7 +222,7 @@ function buildLegend(g, colors, tDom) {
   legend.append('rect')
     .attr('width', gradWidth)
     .attr('height', 100)
-    .attr('transform', `translate(${lMargin.left}, ${lMargin.top + 80})`)
+    .attr('transform', `translate(${lMargin.left}, ${lMargin.top + 75})`)
     .style('fill', 'url(#gradient)');
 
   const gradScale = scaleLinear()
@@ -234,7 +233,7 @@ function buildLegend(g, colors, tDom) {
   const gradAxis = legend.append('g')
     .attr('transform', `translate(${lMargin.left}, ${lMargin.top + 205})`)
     .call(axisBottom(gradScale)
-      .tickSize(-125, 0, 0));
+      .tickSize(-130, 0, 0));
 
   gradAxis.select('path')
     .remove();
