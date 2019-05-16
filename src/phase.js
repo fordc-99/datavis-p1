@@ -240,7 +240,7 @@ function buildLegend(g, colors, tDom) {
     .remove();
 
   gradAxis.selectAll('text')
-    .attr('transform', 'translate(0, 15)')
+    .attr('transform', 'translate(0, 10)')
     .style('letter-spacing', '0.1em')
     .style('text-transform', 'uppercase')
     .attr('font-size', 38);

@@ -192,7 +192,7 @@ export function barVis(svg, importData, width, height) {
     .style('font-family', 'sans-serif')
     .style('font-weight', 'bold')
     .style('letter-spacing', '0.1em')
-    .text('AVERAGE DAILY RIDERSHIP');
+    .text('AVERAGE DAILY RIDERSHIP (2016)');
 
   const stAxisLab = [
     {content: 'STATION', y: 0},

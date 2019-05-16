@@ -29,7 +29,7 @@ function buildLabels(g) {
     .style('font-family', 'sans-serif')
     .style('font-weight', 'bold')
     .style('letter-spacing', '0.1em')
-    .text('MEDIAN HOUSEHOLD INCOME');
+    .text('MEDIAN HOUSEHOLD INCOME (2016)');
 
   h.append('text')
     .attr('text-anchor', 'middle')
@@ -40,7 +40,7 @@ function buildLabels(g) {
     .style('font-family', 'sans-serif')
     .style('font-weight', 'bold')
     .style('letter-spacing', '0.1em')
-    .text('AVERAGE DAILY RIDERSHIP');
+    .text('AVERAGE DAILY RIDERSHIP (2016)');
 }
 
 function buildAxes(g, x, y) {
