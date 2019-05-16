@@ -1,6 +1,7 @@
 import {scaleLinear, scaleQuantize} from 'd3-scale';
 import {arc, pie} from 'd3-shape';
 import {getDomain} from './utils';
+import {axisBottom} from 'd3-axis';
 
 const margin = {top: 650, left: 2300, right: 100, bottom: 100};
 const plotWidth = 5000 - margin.left - margin.right;
@@ -145,11 +146,11 @@ function buildAnnotations(g) {
     .attr('x1', offsetLeft + 10)
     .attr('y1', offsetBottom)
     .attr('x2', offsetLeft + 10)
-    .attr('y2', offsetBottom - 280)
+    .attr('y2', offsetBottom - 270)
     .attr('stroke-width', 8)
     .attr('stroke', '#626262');
 
-  const offsetTop = offsetBottom - 560;
+  const offsetTop = offsetBottom - 550;
 
   const annText = [
     {content: 'CUBS WIN', y: 0, weight: 700},
@@ -170,6 +171,79 @@ function buildAnnotations(g) {
   .style('letter-spacing', '0.1em')
   .style('font-family', 'sans-serif')
   .text(d => d.content);
+}
+
+function buildLegend(g, colors, tDom) {
+  // setting constants
+  const legendWidth = 770;
+  const legendHeight = 340;
+  const offsetLeft = margin.left + plotWidth - legendWidth - 100;
+  const offsetHeight = margin.top + plotHeight - legendHeight + 50;
+  const lMargin = {top: 50, left: 50, right: 50, bottom: 50};
+
+  // creating legend box
+  const legend = g.append('g').attr('transform', `translate(${offsetLeft}, ${offsetHeight})`);
+
+  legend.append('rect')
+    .attr('x', 0)
+    .attr('y', 0)
+    .attr('width', legendWidth)
+    .attr('height', legendHeight)
+    .attr('stroke', '#000')
+    .attr('stroke-width', 3)
+    .attr('fill', '#FCFCFB');
+
+  // legend title
+  legend.append('text')
+    .attr('x', lMargin.left)
+    .attr('y', lMargin.top + 40)
+    .attr('font-size', 45)
+    .attr('font-weight', 600)
+    .style('font-family', 'sans-serif')
+    .style('letter-spacing', '0.1em')
+    .text('TEMPERATURE (˚F)');
+
+  const gradData = [...new Array(15)].map((d, i) => ({
+    offset: Number(i) * 1 / 15,
+    color: colors[i]
+  }));
+
+  const gradient = g.append('defs')
+    .append('linearGradient')
+    .attr('id', 'gradient');
+
+  gradient.selectAll('stop')
+    .data(gradData)
+    .enter().append('stop')
+    .attr('offset', d => d.offset)
+    .attr('stop-color', d => d.color);
+
+  const gradWidth = legendWidth - lMargin.left - lMargin.right;
+
+  legend.append('rect')
+    .attr('width', gradWidth)
+    .attr('height', 100)
+    .attr('transform', `translate(${lMargin.left}, ${lMargin.top + 80})`)
+    .style('fill', 'url(#gradient)');
+
+  const gradScale = scaleLinear()
+    .domain([0, tDom.max])
+    .range([0, gradWidth])
+    .nice();
+
+  const gradAxis = legend.append('g')
+    .attr('transform', `translate(${lMargin.left}, ${lMargin.top + 205})`)
+    .call(axisBottom(gradScale)
+      .tickSize(-125, 0, 0));
+
+  gradAxis.select('path')
+    .remove();
+
+  gradAxis.selectAll('text')
+    .attr('transform', 'translate(0, 15)')
+    .style('letter-spacing', '0.1em')
+    .style('text-transform', 'uppercase')
+    .attr('font-size', 38);
 }
 
 export function phaseDiagram(importData, svg) {
@@ -193,7 +267,8 @@ export function phaseDiagram(importData, svg) {
 
   const c = scaleQuantize()
     .domain([tempDomain.min, tempDomain.max])
-    .range(colors);
+    .range(colors)
+    .nice();
 
   const phase = g.append('g')
     .attr('transform', `translate(${centerX}, ${centerY})`)
@@ -218,4 +293,5 @@ export function phaseDiagram(importData, svg) {
 
   buildAxis(r, g);
   buildAnnotations(g);
+  buildLegend(g, colors, tempDomain);
 }
