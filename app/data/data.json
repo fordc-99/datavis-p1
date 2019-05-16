@@ -2,6 +2,7 @@
     {
         "date": "2016-01-01",
         "dow": 5,
+        "week_num": 53,
         "temp": "23",
         "ridership": 123362,
         "value": 1
@@ -9,6 +10,7 @@
     {
         "date": "2016-01-02",
         "dow": 6,
+        "week_num": 53,
         "temp": "27",
         "ridership": 128586,
         "value": 1
@@ -16,6 +18,7 @@
     {
         "date": "2016-01-03",
         "dow": 7,
+        "week_num": 53,
         "temp": "27",
         "ridership": 105215,
         "value": 1
@@ -23,6 +26,7 @@
     {
         "date": "2016-01-04",
         "dow": 1,
+        "week_num": 1,
         "temp": "27",
         "ridership": 205465,
         "value": 1
@@ -30,6 +34,7 @@
     {
         "date": "2016-01-05",
         "dow": 2,
+        "week_num": 1,
         "temp": "26",
         "ridership": 213167,
         "value": 1
@@ -37,6 +42,7 @@
     {
         "date": "2016-01-06",
         "dow": 3,
+        "week_num": 1,
         "temp": "28",
         "ridership": 213814,
         "value": 1
@@ -44,6 +50,7 @@
     {
         "date": "2016-01-07",
         "dow": 4,
+        "week_num": 1,
         "temp": "36",
         "ridership": 215974,
         "value": 1
@@ -51,6 +58,7 @@
     {
         "date": "2016-01-08",
         "dow": 5,
+        "week_num": 1,
         "temp": "38",
         "ridership": 215347,
         "value": 1
@@ -58,6 +66,7 @@
     {
         "date": "2016-01-09",
         "dow": 6,
+        "week_num": 1,
         "temp": "37",
         "ridership": 139424,
         "value": 1
@@ -65,6 +74,7 @@
     {
         "date": "2016-01-10",
         "dow": 7,
+        "week_num": 1,
         "temp": "19",
         "ridership": 96685,
         "value": 1
@@ -72,6 +82,7 @@
     {
         "date": "2016-01-11",
         "dow": 1,
+        "week_num": 2,
         "temp": "5",
         "ridership": 199067,
         "value": 1
@@ -79,6 +90,7 @@
     {
         "date": "2016-01-12",
         "dow": 2,
+        "week_num": 2,
         "temp": "14",
         "ridership": 202611,
         "value": 1
@@ -86,6 +98,7 @@
     {
         "date": "2016-01-13",
         "dow": 3,
+        "week_num": 2,
         "temp": "7",
         "ridership": 205581,
         "value": 1
@@ -93,6 +106,7 @@
     {
         "date": "2016-01-14",
         "dow": 4,
+        "week_num": 2,
         "temp": "31",
         "ridership": 219975,
         "value": 1
@@ -100,6 +114,7 @@
     {
         "date": "2016-01-15",
         "dow": 5,
+        "week_num": 2,
         "temp": "40",
         "ridership": 216012,
         "value": 1
@@ -107,6 +122,7 @@
     {
         "date": "2016-01-16",
         "dow": 6,
+        "week_num": 2,
         "temp": "28",
         "ridership": 144870,
         "value": 1
@@ -114,6 +130,7 @@
     {
         "date": "2016-01-17",
         "dow": 7,
+        "week_num": 2,
         "temp": "8",
         "ridership": 89732,
         "value": 1
@@ -121,6 +138,7 @@
     {
         "date": "2016-01-18",
         "dow": 1,
+        "week_num": 3,
         "temp": "1",
         "ridership": 124073,
         "value": 1
@@ -128,6 +146,7 @@
     {
         "date": "2016-01-19",
         "dow": 2,
+        "week_num": 3,
         "temp": "6",
         "ridership": 212382,
         "value": 1
@@ -135,6 +154,7 @@
     {
         "date": "2016-01-20",
         "dow": 3,
+        "week_num": 3,
         "temp": "17",
         "ridership": 221677,
         "value": 1
@@ -142,6 +162,7 @@
     {
         "date": "2016-01-21",
         "dow": 4,
+        "week_num": 3,
         "temp": "19",
         "ridership": 227155,
         "value": 1
@@ -149,6 +170,7 @@
     {
         "date": "2016-01-22",
         "dow": 5,
+        "week_num": 3,
         "temp": "24",
         "ridership": 220202,
         "value": 1
@@ -156,6 +178,7 @@
     {
         "date": "2016-01-23",
         "dow": 6,
+        "week_num": 3,
         "temp": "28",
         "ridership": 151772,
         "value": 1
@@ -163,6 +186,7 @@
     {
         "date": "2016-01-24",
         "dow": 7,
+        "week_num": 3,
         "temp": "27",
         "ridership": 109960,
         "value": 1
@@ -170,6 +194,7 @@
     {
         "date": "2016-01-25",
         "dow": 1,
+        "week_num": 4,
         "temp": "31",
         "ridership": 219146,
         "value": 1
@@ -177,6 +202,7 @@
     {
         "date": "2016-01-26",
         "dow": 2,
+        "week_num": 4,
         "temp": "33",
         "ridership": 225399,
         "value": 1
@@ -184,6 +210,7 @@
     {
         "date": "2016-01-27",
         "dow": 3,
+        "week_num": 4,
         "temp": "28",
         "ridership": 226781,
         "value": 1
@@ -191,6 +218,7 @@
     {
         "date": "2016-01-28",
         "dow": 4,
+        "week_num": 4,
         "temp": "34",
         "ridership": 227688,
         "value": 1
@@ -198,6 +226,7 @@
     {
         "date": "2016-01-29",
         "dow": 5,
+        "week_num": 4,
         "temp": "28",
         "ridership": 222212,
         "value": 1
@@ -205,6 +234,7 @@
     {
         "date": "2016-01-30",
         "dow": 6,
+        "week_num": 4,
         "temp": "38",
         "ridership": 154170,
         "value": 1
@@ -212,6 +242,7 @@
     {
         "date": "2016-01-31",
         "dow": 7,
+        "week_num": 4,
         "temp": "42",
         "ridership": 108906,
         "value": 1
@@ -219,6 +250,7 @@
     {
         "date": "2016-02-01",
         "dow": 1,
+        "week_num": 5,
         "temp": "36",
         "ridership": 224785,
         "value": 1
@@ -226,6 +258,7 @@
     {
         "date": "2016-02-02",
         "dow": 2,
+        "week_num": 5,
         "temp": "35",
         "ridership": 217218,
         "value": 1
@@ -233,6 +266,7 @@
     {
         "date": "2016-02-03",
         "dow": 3,
+        "week_num": 5,
         "temp": "36",
         "ridership": 229726,
         "value": 1
@@ -240,6 +274,7 @@
     {
         "date": "2016-02-04",
         "dow": 4,
+        "week_num": 5,
         "temp": "27",
         "ridership": 230709,
         "value": 1
@@ -247,6 +282,7 @@
     {
         "date": "2016-02-05",
         "dow": 5,
+        "week_num": 5,
         "temp": "29",
         "ridership": 218557,
         "value": 1
@@ -254,6 +290,7 @@
     {
         "date": "2016-02-06",
         "dow": 6,
+        "week_num": 5,
         "temp": "31",
         "ridership": 154943,
         "value": 1
@@ -261,6 +298,7 @@
     {
         "date": "2016-02-07",
         "dow": 7,
+        "week_num": 5,
         "temp": "38",
         "ridership": 113283,
         "value": 1
@@ -268,6 +306,7 @@
     {
         "date": "2016-02-08",
         "dow": 1,
+        "week_num": 6,
         "temp": "31",
         "ridership": 215573,
         "value": 1
@@ -275,6 +314,7 @@
     {
         "date": "2016-02-09",
         "dow": 2,
+        "week_num": 6,
         "temp": "19",
         "ridership": 221543,
         "value": 1
@@ -282,6 +322,7 @@
     {
         "date": "2016-02-10",
         "dow": 3,
+        "week_num": 6,
         "temp": "14",
         "ridership": 219967,
         "value": 1
@@ -289,6 +330,7 @@
     {
         "date": "2016-02-11",
         "dow": 4,
+        "week_num": 6,
         "temp": "13",
         "ridership": 224768,
         "value": 1
@@ -296,6 +338,7 @@
     {
         "date": "2016-02-12",
         "dow": 5,
+        "week_num": 6,
         "temp": "19",
         "ridership": 213870,
         "value": 1
@@ -303,6 +346,7 @@
     {
         "date": "2016-02-13",
         "dow": 6,
+        "week_num": 6,
         "temp": "9",
         "ridership": 145209,
         "value": 1
@@ -310,6 +354,7 @@
     {
         "date": "2016-02-14",
         "dow": 7,
+        "week_num": 6,
         "temp": "14",
         "ridership": 119797,
         "value": 1
@@ -317,6 +362,7 @@
     {
         "date": "2016-02-15",
         "dow": 1,
+        "week_num": 7,
         "temp": "21",
         "ridership": 170225,
         "value": 1
@@ -324,6 +370,7 @@
     {
         "date": "2016-02-16",
         "dow": 2,
+        "week_num": 7,
         "temp": "27",
         "ridership": 224033,
         "value": 1
@@ -331,6 +378,7 @@
     {
         "date": "2016-02-17",
         "dow": 3,
+        "week_num": 7,
         "temp": "28",
         "ridership": 225845,
         "value": 1
@@ -338,6 +386,7 @@
     {
         "date": "2016-02-18",
         "dow": 4,
+        "week_num": 7,
         "temp": "30",
         "ridership": 229248,
         "value": 1
@@ -345,6 +394,7 @@
     {
         "date": "2016-02-19",
         "dow": 5,
+        "week_num": 7,
         "temp": "47",
         "ridership": 232240,
         "value": 1
@@ -352,6 +402,7 @@
     {
         "date": "2016-02-20",
         "dow": 6,
+        "week_num": 7,
         "temp": "49",
         "ridership": 169106,
         "value": 1
@@ -359,6 +410,7 @@
     {
         "date": "2016-02-21",
         "dow": 7,
+        "week_num": 7,
         "temp": "40",
         "ridership": 114574,
         "value": 1
@@ -366,6 +418,7 @@
     {
         "date": "2016-02-22",
         "dow": 1,
+        "week_num": 8,
         "temp": "35",
         "ridership": 219884,
         "value": 1
@@ -373,6 +426,7 @@
     {
         "date": "2016-02-23",
         "dow": 2,
+        "week_num": 8,
         "temp": "36",
         "ridership": 225346,
         "value": 1
@@ -380,6 +434,7 @@
     {
         "date": "2016-02-24",
         "dow": 3,
+        "week_num": 8,
         "temp": "35",
         "ridership": 211052,
         "value": 1
@@ -387,6 +442,7 @@
     {
         "date": "2016-02-25",
         "dow": 4,
+        "week_num": 8,
         "temp": "33",
         "ridership": 225380,
         "value": 1
@@ -394,6 +450,7 @@
     {
         "date": "2016-02-26",
         "dow": 5,
+        "week_num": 8,
         "temp": "31",
         "ridership": 222780,
         "value": 1
@@ -401,6 +458,7 @@
     {
         "date": "2016-02-27",
         "dow": 6,
+        "week_num": 8,
         "temp": "37",
         "ridership": 165027,
         "value": 1
@@ -408,6 +466,7 @@
     {
         "date": "2016-02-28",
         "dow": 7,
+        "week_num": 8,
         "temp": "52",
         "ridership": 118903,
         "value": 1
@@ -415,6 +474,7 @@
     {
         "date": "2016-02-29",
         "dow": 1,
+        "week_num": 9,
         "temp": "41",
         "ridership": 217962,
         "value": 1
@@ -422,6 +482,7 @@
     {
         "date": "2016-03-01",
         "dow": 2,
+        "week_num": 9,
         "temp": "28",
         "ridership": 219359,
         "value": 1
@@ -429,6 +490,7 @@
     {
         "date": "2016-03-02",
         "dow": 3,
+        "week_num": 9,
         "temp": "21",
         "ridership": 224181,
         "value": 1
@@ -436,6 +498,7 @@
     {
         "date": "2016-03-03",
         "dow": 4,
+        "week_num": 9,
         "temp": "30",
         "ridership": 226043,
         "value": 1
@@ -443,6 +506,7 @@
     {
         "date": "2016-03-04",
         "dow": 5,
+        "week_num": 9,
         "temp": "30",
         "ridership": 224691,
         "value": 1
@@ -450,6 +514,7 @@
     {
         "date": "2016-03-05",
         "dow": 6,
+        "week_num": 9,
         "temp": "33",
         "ridership": 151204,
         "value": 1
@@ -457,6 +522,7 @@
     {
         "date": "2016-03-06",
         "dow": 7,
+        "week_num": 9,
         "temp": "39",
         "ridership": 117900,
         "value": 1
@@ -464,6 +530,7 @@
     {
         "date": "2016-03-07",
         "dow": 1,
+        "week_num": 10,
         "temp": "51",
         "ridership": 217001,
         "value": 1
@@ -471,6 +538,7 @@
     {
         "date": "2016-03-08",
         "dow": 2,
+        "week_num": 10,
         "temp": "62",
         "ridership": 230286,
         "value": 1
@@ -478,6 +546,7 @@
     {
         "date": "2016-03-09",
         "dow": 3,
+        "week_num": 10,
         "temp": "61",
         "ridership": 225052,
         "value": 1
@@ -485,6 +554,7 @@
     {
         "date": "2016-03-10",
         "dow": 4,
+        "week_num": 10,
         "temp": "49",
         "ridership": 227966,
         "value": 1
@@ -492,6 +562,7 @@
     {
         "date": "2016-03-11",
         "dow": 5,
+        "week_num": 10,
         "temp": "43",
         "ridership": 233259,
         "value": 1
@@ -499,6 +570,7 @@
     {
         "date": "2016-03-12",
         "dow": 6,
+        "week_num": 10,
         "temp": "43",
         "ridership": 212114,
         "value": 1
@@ -506,6 +578,7 @@
     {
         "date": "2016-03-13",
         "dow": 7,
+        "week_num": 10,
         "temp": "47",
         "ridership": 110078,
         "value": 1
@@ -513,6 +586,7 @@
     {
         "date": "2016-03-14",
         "dow": 1,
+        "week_num": 11,
         "temp": "47",
         "ridership": 224775,
         "value": 1
@@ -520,6 +594,7 @@
     {
         "date": "2016-03-15",
         "dow": 2,
+        "week_num": 11,
         "temp": "49",
         "ridership": 225820,
         "value": 1
@@ -527,6 +602,7 @@
     {
         "date": "2016-03-16",
         "dow": 3,
+        "week_num": 11,
         "temp": "53",
         "ridership": 228042,
         "value": 1
@@ -534,6 +610,7 @@
     {
         "date": "2016-03-17",
         "dow": 4,
+        "week_num": 11,
         "temp": "47",
         "ridership": 234391,
         "value": 1
@@ -541,6 +618,7 @@
     {
         "date": "2016-03-18",
         "dow": 5,
+        "week_num": 11,
         "temp": "41",
         "ridership": 227951,
         "value": 1
@@ -548,6 +626,7 @@
     {
         "date": "2016-03-19",
         "dow": 6,
+        "week_num": 11,
         "temp": "38",
         "ridership": 152573,
         "value": 1
@@ -555,6 +634,7 @@
     {
         "date": "2016-03-20",
         "dow": 7,
+        "week_num": 11,
         "temp": "37",
         "ridership": 111231,
         "value": 1
@@ -562,6 +642,7 @@
     {
         "date": "2016-03-21",
         "dow": 1,
+        "week_num": 12,
         "temp": "38",
         "ridership": 204258,
         "value": 1
@@ -569,6 +650,7 @@
     {
         "date": "2016-03-22",
         "dow": 2,
+        "week_num": 12,
         "temp": "48",
         "ridership": 209888,
         "value": 1
@@ -576,6 +658,7 @@
     {
         "date": "2016-03-23",
         "dow": 3,
+        "week_num": 12,
         "temp": "42",
         "ridership": 204464,
         "value": 1
@@ -583,6 +666,7 @@
     {
         "date": "2016-03-24",
         "dow": 4,
+        "week_num": 12,
         "temp": "37",
         "ridership": 198048,
         "value": 1
@@ -590,6 +674,7 @@
     {
         "date": "2016-03-25",
         "dow": 5,
+        "week_num": 12,
         "temp": "35",
         "ridership": 197541,
         "value": 1
@@ -597,6 +682,7 @@
     {
         "date": "2016-03-26",
         "dow": 6,
+        "week_num": 12,
         "temp": "40",
         "ridership": 146951,
         "value": 1
@@ -604,6 +690,7 @@
     {
         "date": "2016-03-27",
         "dow": 7,
+        "week_num": 12,
         "temp": "47",
         "ridership": 96717,
         "value": 1
@@ -611,6 +698,7 @@
     {
         "date": "2016-03-28",
         "dow": 1,
+        "week_num": 13,
         "temp": "45",
         "ridership": 214511,
         "value": 1
@@ -618,6 +706,7 @@
     {
         "date": "2016-03-29",
         "dow": 2,
+        "week_num": 13,
         "temp": "44",
         "ridership": 229131,
         "value": 1
@@ -625,6 +714,7 @@
     {
         "date": "2016-03-30",
         "dow": 3,
+        "week_num": 13,
         "temp": "49",
         "ridership": 223931,
         "value": 1
@@ -632,6 +722,7 @@
     {
         "date": "2016-03-31",
         "dow": 4,
+        "week_num": 13,
         "temp": "60",
         "ridership": 227755,
         "value": 1
@@ -639,6 +730,7 @@
     {
         "date": "2016-04-01",
         "dow": 5,
+        "week_num": 13,
         "temp": "45",
         "ridership": 230442,
         "value": 1
@@ -646,6 +738,7 @@
     {
         "date": "2016-04-02",
         "dow": 6,
+        "week_num": 13,
         "temp": "35",
         "ridership": 151047,
         "value": 1
@@ -653,6 +746,7 @@
     {
         "date": "2016-04-03",
         "dow": 7,
+        "week_num": 13,
         "temp": "40",
         "ridership": 128081,
         "value": 1
@@ -660,6 +754,7 @@
     {
         "date": "2016-04-04",
         "dow": 1,
+        "week_num": 14,
         "temp": "41",
         "ridership": 218084,
         "value": 1
@@ -667,6 +762,7 @@
     {
         "date": "2016-04-05",
         "dow": 2,
+        "week_num": 14,
         "temp": "33",
         "ridership": 229194,
         "value": 1
@@ -674,6 +770,7 @@
     {
         "date": "2016-04-06",
         "dow": 3,
+        "week_num": 14,
         "temp": "44",
         "ridership": 223420,
         "value": 1
@@ -681,6 +778,7 @@
     {
         "date": "2016-04-07",
         "dow": 4,
+        "week_num": 14,
         "temp": "40",
         "ridership": 232667,
         "value": 1
@@ -688,6 +786,7 @@
     {
         "date": "2016-04-08",
         "dow": 5,
+        "week_num": 14,
         "temp": "37",
         "ridership": 226559,
         "value": 1
@@ -695,6 +794,7 @@
     {
         "date": "2016-04-09",
         "dow": 6,
+        "week_num": 14,
         "temp": "30",
         "ridership": 162298,
         "value": 1
@@ -702,6 +802,7 @@
     {
         "date": "2016-04-10",
         "dow": 7,
+        "week_num": 14,
         "temp": "37",
         "ridership": 111662,
         "value": 1
@@ -709,6 +810,7 @@
     {
         "date": "2016-04-11",
         "dow": 1,
+        "week_num": 15,
         "temp": "48",
         "ridership": 238507,
         "value": 1
@@ -716,6 +818,7 @@
     {
         "date": "2016-04-12",
         "dow": 2,
+        "week_num": 15,
         "temp": "40",
         "ridership": 228588,
         "value": 1
@@ -723,6 +826,7 @@
     {
         "date": "2016-04-13",
         "dow": 3,
+        "week_num": 15,
         "temp": "43",
         "ridership": 239170,
         "value": 1
@@ -730,6 +834,7 @@
     {
         "date": "2016-04-14",
         "dow": 4,
+        "week_num": 15,
         "temp": "48",
         "ridership": 243449,
         "value": 1
@@ -737,6 +842,7 @@
     {
         "date": "2016-04-15",
         "dow": 5,
+        "week_num": 15,
         "temp": "53",
         "ridership": 246215,
         "value": 1
@@ -744,6 +850,7 @@
     {
         "date": "2016-04-16",
         "dow": 6,
+        "week_num": 15,
         "temp": "58",
         "ridership": 188560,
         "value": 1
@@ -751,6 +858,7 @@
     {
         "date": "2016-04-17",
         "dow": 7,
+        "week_num": 15,
         "temp": "62",
         "ridership": 142167,
         "value": 1
@@ -758,6 +866,7 @@
     {
         "date": "2016-04-18",
         "dow": 1,
+        "week_num": 16,
         "temp": "66",
         "ridership": 220016,
         "value": 1
@@ -765,6 +874,7 @@
     {
         "date": "2016-04-19",
         "dow": 2,
+        "week_num": 16,
         "temp": "54",
         "ridership": 217426,
         "value": 1
@@ -772,6 +882,7 @@
     {
         "date": "2016-04-20",
         "dow": 3,
+        "week_num": 16,
         "temp": "58",
         "ridership": 219930,
         "value": 1
@@ -779,6 +890,7 @@
     {
         "date": "2016-04-21",
         "dow": 4,
+        "week_num": 16,
         "temp": "62",
         "ridership": 222482,
         "value": 1
@@ -786,6 +898,7 @@
     {
         "date": "2016-04-22",
         "dow": 5,
+        "week_num": 16,
         "temp": "51",
         "ridership": 213488,
         "value": 1
@@ -793,6 +906,7 @@
     {
         "date": "2016-04-23",
         "dow": 6,
+        "week_num": 16,
         "temp": "48",
         "ridership": 164066,
         "value": 1
@@ -800,6 +914,7 @@
     {
         "date": "2016-04-24",
         "dow": 7,
+        "week_num": 16,
         "temp": "56",
         "ridership": 125991,
         "value": 1
@@ -807,6 +922,7 @@
     {
         "date": "2016-04-25",
         "dow": 1,
+        "week_num": 17,
         "temp": "69",
         "ridership": 219400,
         "value": 1
@@ -814,6 +930,7 @@
     {
         "date": "2016-04-26",
         "dow": 2,
+        "week_num": 17,
         "temp": "53",
         "ridership": 235545,
         "value": 1
@@ -821,6 +938,7 @@
     {
         "date": "2016-04-27",
         "dow": 3,
+        "week_num": 17,
         "temp": "44",
         "ridership": 232706,
         "value": 1
@@ -828,6 +946,7 @@
     {
         "date": "2016-04-28",
         "dow": 4,
+        "week_num": 17,
         "temp": "45",
         "ridership": 247675,
         "value": 1
@@ -835,6 +954,7 @@
     {
         "date": "2016-04-29",
         "dow": 5,
+        "week_num": 17,
         "temp": "44",
         "ridership": 249062,
         "value": 1
@@ -842,6 +962,7 @@
     {
         "date": "2016-04-30",
         "dow": 6,
+        "week_num": 17,
         "temp": "45",
         "ridership": 151047,
         "value": 1
@@ -849,6 +970,7 @@
     {
         "date": "2016-05-01",
         "dow": 7,
+        "week_num": 17,
         "temp": "45",
         "ridership": 124859,
         "value": 1
@@ -856,6 +978,7 @@
     {
         "date": "2016-05-02",
         "dow": 1,
+        "week_num": 18,
         "temp": "49",
         "ridership": 221786,
         "value": 1
@@ -863,6 +986,7 @@
     {
         "date": "2016-05-03",
         "dow": 2,
+        "week_num": 18,
         "temp": "53",
         "ridership": 231097,
         "value": 1
@@ -870,6 +994,7 @@
     {
         "date": "2016-05-04",
         "dow": 3,
+        "week_num": 18,
         "temp": "52",
         "ridership": 227874,
         "value": 1
@@ -877,6 +1002,7 @@
     {
         "date": "2016-05-05",
         "dow": 4,
+        "week_num": 18,
         "temp": "49",
         "ridership": 252496,
         "value": 1
@@ -884,6 +1010,7 @@
     {
         "date": "2016-05-06",
         "dow": 5,
+        "week_num": 18,
         "temp": "59",
         "ridership": 254919,
         "value": 1
@@ -891,6 +1018,7 @@
     {
         "date": "2016-05-07",
         "dow": 6,
+        "week_num": 18,
         "temp": "65",
         "ridership": 182220,
         "value": 1
@@ -898,6 +1026,7 @@
     {
         "date": "2016-05-08",
         "dow": 7,
+        "week_num": 18,
         "temp": "55",
         "ridership": 133686,
         "value": 1
@@ -905,6 +1034,7 @@
     {
         "date": "2016-05-09",
         "dow": 1,
+        "week_num": 19,
         "temp": "56",
         "ridership": 219033,
         "value": 1
@@ -912,6 +1042,7 @@
     {
         "date": "2016-05-10",
         "dow": 2,
+        "week_num": 19,
         "temp": "54",
         "ridership": 228542,
         "value": 1
@@ -919,6 +1050,7 @@
     {
         "date": "2016-05-11",
         "dow": 3,
+        "week_num": 19,
         "temp": "58",
         "ridership": 247080,
         "value": 1
@@ -926,6 +1058,7 @@
     {
         "date": "2016-05-12",
         "dow": 4,
+        "week_num": 19,
         "temp": "61",
         "ridership": 229682,
         "value": 1
@@ -933,6 +1066,7 @@
     {
         "date": "2016-05-13",
         "dow": 5,
+        "week_num": 19,
         "temp": "58",
         "ridership": 242586,
         "value": 1
@@ -940,6 +1074,7 @@
     {
         "date": "2016-05-14",
         "dow": 6,
+        "week_num": 19,
         "temp": "46",
         "ridership": 168774,
         "value": 1
@@ -947,6 +1082,7 @@
     {
         "date": "2016-05-15",
         "dow": 7,
+        "week_num": 19,
         "temp": "45",
         "ridership": 134102,
         "value": 1
@@ -954,6 +1090,7 @@
     {
         "date": "2016-05-16",
         "dow": 1,
+        "week_num": 20,
         "temp": "56",
         "ridership": 213874,
         "value": 1
@@ -961,6 +1098,7 @@
     {
         "date": "2016-05-17",
         "dow": 2,
+        "week_num": 20,
         "temp": "54",
         "ridership": 220473,
         "value": 1
@@ -968,6 +1106,7 @@
     {
         "date": "2016-05-18",
         "dow": 3,
+        "week_num": 20,
         "temp": "52",
         "ridership": 222879,
         "value": 1
@@ -975,6 +1114,7 @@
     {
         "date": "2016-05-19",
         "dow": 4,
+        "week_num": 20,
         "temp": "55",
         "ridership": 228131,
         "value": 1
@@ -982,6 +1122,7 @@
     {
         "date": "2016-05-20",
         "dow": 5,
+        "week_num": 20,
         "temp": "58",
         "ridership": 225148,
         "value": 1
@@ -989,6 +1130,7 @@
     {
         "date": "2016-05-21",
         "dow": 6,
+        "week_num": 20,
         "temp": "62",
         "ridership": 163234,
         "value": 1
@@ -996,6 +1138,7 @@
     {
         "date": "2016-05-22",
         "dow": 7,
+        "week_num": 20,
         "temp": "66",
         "ridership": 126561,
         "value": 1
@@ -1003,6 +1146,7 @@
     {
         "date": "2016-05-23",
         "dow": 1,
+        "week_num": 21,
         "temp": "66",
         "ridership": 220754,
         "value": 1
@@ -1010,6 +1154,7 @@
     {
         "date": "2016-05-24",
         "dow": 2,
+        "week_num": 21,
         "temp": "72",
         "ridership": 227280,
         "value": 1
@@ -1017,6 +1162,7 @@
     {
         "date": "2016-05-25",
         "dow": 3,
+        "week_num": 21,
         "temp": "76",
         "ridership": 220908,
         "value": 1
@@ -1024,6 +1170,7 @@
     {
         "date": "2016-05-26",
         "dow": 4,
+        "week_num": 21,
         "temp": "71",
         "ridership": 228672,
         "value": 1
@@ -1031,6 +1178,7 @@
     {
         "date": "2016-05-27",
         "dow": 5,
+        "week_num": 21,
         "temp": "74",
         "ridership": 234838,
         "value": 1
@@ -1038,6 +1186,7 @@
     {
         "date": "2016-05-28",
         "dow": 6,
+        "week_num": 21,
         "temp": "73",
         "ridership": 195338,
         "value": 1
@@ -1045,6 +1194,7 @@
     {
         "date": "2016-05-29",
         "dow": 7,
+        "week_num": 21,
         "temp": "72",
         "ridership": 163819,
         "value": 1
@@ -1052,6 +1202,7 @@
     {
         "date": "2016-05-30",
         "dow": 1,
+        "week_num": 22,
         "temp": "74",
         "ridership": 140870,
         "value": 1
@@ -1059,6 +1210,7 @@
     {
         "date": "2016-05-31",
         "dow": 2,
+        "week_num": 22,
         "temp": "73",
         "ridership": 223671,
         "value": 1
@@ -1066,6 +1218,7 @@
     {
         "date": "2016-06-01",
         "dow": 3,
+        "week_num": 22,
         "temp": "68",
         "ridership": 236940,
         "value": 1
@@ -1073,6 +1226,7 @@
     {
         "date": "2016-06-02",
         "dow": 4,
+        "week_num": 22,
         "temp": "70",
         "ridership": 245099,
         "value": 1
@@ -1080,6 +1234,7 @@
     {
         "date": "2016-06-03",
         "dow": 5,
+        "week_num": 22,
         "temp": "70",
         "ridership": 249141,
         "value": 1
@@ -1087,6 +1242,7 @@
     {
         "date": "2016-06-04",
         "dow": 6,
+        "week_num": 22,
         "temp": "69",
         "ridership": 163565,
         "value": 1
@@ -1094,6 +1250,7 @@
     {
         "date": "2016-06-05",
         "dow": 7,
+        "week_num": 22,
         "temp": "68",
         "ridership": 143545,
         "value": 1
@@ -1101,6 +1258,7 @@
     {
         "date": "2016-06-06",
         "dow": 1,
+        "week_num": 23,
         "temp": "71",
         "ridership": 219380,
         "value": 1
@@ -1108,6 +1266,7 @@
     {
         "date": "2016-06-07",
         "dow": 2,
+        "week_num": 23,
         "temp": "63",
         "ridership": 235237,
         "value": 1
@@ -1115,6 +1274,7 @@
     {
         "date": "2016-06-08",
         "dow": 3,
+        "week_num": 23,
         "temp": "61",
         "ridership": 233445,
         "value": 1
@@ -1122,6 +1282,7 @@
     {
         "date": "2016-06-09",
         "dow": 4,
+        "week_num": 23,
         "temp": "61",
         "ridership": 229645,
         "value": 1
@@ -1129,6 +1290,7 @@
     {
         "date": "2016-06-10",
         "dow": 5,
+        "week_num": 23,
         "temp": "74",
         "ridership": 255754,
         "value": 1
@@ -1136,6 +1298,7 @@
     {
         "date": "2016-06-11",
         "dow": 6,
+        "week_num": 23,
         "temp": "82",
         "ridership": 186841,
         "value": 1
@@ -1143,6 +1306,7 @@
     {
         "date": "2016-06-12",
         "dow": 7,
+        "week_num": 23,
         "temp": "71",
         "ridership": 142094,
         "value": 1
@@ -1150,6 +1314,7 @@
     {
         "date": "2016-06-13",
         "dow": 1,
+        "week_num": 24,
         "temp": "68",
         "ridership": 217984,
         "value": 1
@@ -1157,6 +1322,7 @@
     {
         "date": "2016-06-14",
         "dow": 2,
+        "week_num": 24,
         "temp": "74",
         "ridership": 223932,
         "value": 1
@@ -1164,6 +1330,7 @@
     {
         "date": "2016-06-15",
         "dow": 3,
+        "week_num": 24,
         "temp": "78",
         "ridership": 227100,
         "value": 1
@@ -1171,6 +1338,7 @@
     {
         "date": "2016-06-16",
         "dow": 4,
+        "week_num": 24,
         "temp": "74",
         "ridership": 223494,
         "value": 1
@@ -1178,6 +1346,7 @@
     {
         "date": "2016-06-17",
         "dow": 5,
+        "week_num": 24,
         "temp": "71",
         "ridership": 251216,
         "value": 1
@@ -1185,6 +1354,7 @@
     {
         "date": "2016-06-18",
         "dow": 6,
+        "week_num": 24,
         "temp": "74",
         "ridership": 186586,
         "value": 1
@@ -1192,6 +1362,7 @@
     {
         "date": "2016-06-19",
         "dow": 7,
+        "week_num": 24,
         "temp": "78",
         "ridership": 146503,
         "value": 1
@@ -1199,6 +1370,7 @@
     {
         "date": "2016-06-20",
         "dow": 1,
+        "week_num": 25,
         "temp": "83",
         "ridership": 227294,
         "value": 1
@@ -1206,6 +1378,7 @@
     {
         "date": "2016-06-21",
         "dow": 2,
+        "week_num": 25,
         "temp": "76",
         "ridership": 238095,
         "value": 1
@@ -1213,6 +1386,7 @@
     {
         "date": "2016-06-22",
         "dow": 3,
+        "week_num": 25,
         "temp": "72",
         "ridership": 224978,
         "value": 1
@@ -1220,6 +1394,7 @@
     {
         "date": "2016-06-23",
         "dow": 4,
+        "week_num": 25,
         "temp": "70",
         "ridership": 215649,
         "value": 1
@@ -1227,6 +1402,7 @@
     {
         "date": "2016-06-24",
         "dow": 5,
+        "week_num": 25,
         "temp": "71",
         "ridership": 236437,
         "value": 1
@@ -1234,6 +1410,7 @@
     {
         "date": "2016-06-25",
         "dow": 6,
+        "week_num": 25,
         "temp": "77",
         "ridership": 181689,
         "value": 1
@@ -1241,6 +1418,7 @@
     {
         "date": "2016-06-26",
         "dow": 7,
+        "week_num": 25,
         "temp": "81",
         "ridership": 180472,
         "value": 1
@@ -1248,6 +1426,7 @@
     {
         "date": "2016-06-27",
         "dow": 1,
+        "week_num": 26,
         "temp": "80",
         "ridership": 205131,
         "value": 1
@@ -1255,6 +1434,7 @@
     {
         "date": "2016-06-28",
         "dow": 2,
+        "week_num": 26,
         "temp": "68",
         "ridership": 215575,
         "value": 1
@@ -1262,6 +1442,7 @@
     {
         "date": "2016-06-29",
         "dow": 3,
+        "week_num": 26,
         "temp": "67",
         "ridership": 217027,
         "value": 1
@@ -1269,6 +1450,7 @@
     {
         "date": "2016-06-30",
         "dow": 4,
+        "week_num": 26,
         "temp": "69",
         "ridership": 233874,
         "value": 1
@@ -1276,6 +1458,7 @@
     {
         "date": "2016-07-01",
         "dow": 5,
+        "week_num": 26,
         "temp": "69",
         "ridership": 218562,
         "value": 1
@@ -1283,6 +1466,7 @@
     {
         "date": "2016-07-02",
         "dow": 6,
+        "week_num": 26,
         "temp": "65",
         "ridership": 159792,
         "value": 1
@@ -1290,6 +1474,7 @@
     {
         "date": "2016-07-03",
         "dow": 7,
+        "week_num": 26,
         "temp": "68",
         "ridership": 136109,
         "value": 1
@@ -1297,6 +1482,7 @@
     {
         "date": "2016-07-04",
         "dow": 1,
+        "week_num": 27,
         "temp": "71",
         "ridership": 158072,
         "value": 1
@@ -1304,6 +1490,7 @@
     {
         "date": "2016-07-05",
         "dow": 2,
+        "week_num": 27,
         "temp": "76",
         "ridership": 224442,
         "value": 1
@@ -1311,6 +1498,7 @@
     {
         "date": "2016-07-06",
         "dow": 3,
+        "week_num": 27,
         "temp": "77",
         "ridership": 237137,
         "value": 1
@@ -1318,6 +1506,7 @@
     {
         "date": "2016-07-07",
         "dow": 4,
+        "week_num": 27,
         "temp": "77",
         "ridership": 227038,
         "value": 1
@@ -1325,6 +1514,7 @@
     {
         "date": "2016-07-08",
         "dow": 5,
+        "week_num": 27,
         "temp": "76",
         "ridership": 235671,
         "value": 1
@@ -1332,6 +1522,7 @@
     {
         "date": "2016-07-09",
         "dow": 6,
+        "week_num": 27,
         "temp": "73",
         "ridership": 178174,
         "value": 1
@@ -1339,6 +1530,7 @@
     {
         "date": "2016-07-10",
         "dow": 7,
+        "week_num": 27,
         "temp": "72",
         "ridership": 136921,
         "value": 1
@@ -1346,6 +1538,7 @@
     {
         "date": "2016-07-11",
         "dow": 1,
+        "week_num": 28,
         "temp": "78",
         "ridership": 209933,
         "value": 1
@@ -1353,6 +1546,7 @@
     {
         "date": "2016-07-12",
         "dow": 2,
+        "week_num": 28,
         "temp": "81",
         "ridership": 214795,
         "value": 1
@@ -1360,6 +1554,7 @@
     {
         "date": "2016-07-13",
         "dow": 3,
+        "week_num": 28,
         "temp": "78",
         "ridership": 211529,
         "value": 1
@@ -1367,6 +1562,7 @@
     {
         "date": "2016-07-14",
         "dow": 4,
+        "week_num": 28,
         "temp": "76",
         "ridership": 221284,
         "value": 1
@@ -1374,6 +1570,7 @@
     {
         "date": "2016-07-15",
         "dow": 5,
+        "week_num": 28,
         "temp": "71",
         "ridership": 244779,
         "value": 1
@@ -1381,6 +1578,7 @@
     {
         "date": "2016-07-16",
         "dow": 6,
+        "week_num": 28,
         "temp": "67",
         "ridership": 187343,
         "value": 1
@@ -1388,6 +1586,7 @@
     {
         "date": "2016-07-17",
         "dow": 7,
+        "week_num": 28,
         "temp": "71",
         "ridership": 147168,
         "value": 1
@@ -1395,6 +1594,7 @@
     {
         "date": "2016-07-18",
         "dow": 1,
+        "week_num": 29,
         "temp": "79",
         "ridership": 229514,
         "value": 1
@@ -1402,6 +1602,7 @@
     {
         "date": "2016-07-19",
         "dow": 2,
+        "week_num": 29,
         "temp": "79",
         "ridership": 237790,
         "value": 1
@@ -1409,6 +1610,7 @@
     {
         "date": "2016-07-20",
         "dow": 3,
+        "week_num": 29,
         "temp": "79",
         "ridership": 238765,
         "value": 1
@@ -1416,6 +1618,7 @@
     {
         "date": "2016-07-21",
         "dow": 4,
+        "week_num": 29,
         "temp": "81",
         "ridership": 220354,
         "value": 1
@@ -1423,6 +1626,7 @@
     {
         "date": "2016-07-22",
         "dow": 5,
+        "week_num": 29,
         "temp": "79",
         "ridership": 222153,
         "value": 1
@@ -1430,6 +1634,7 @@
     {
         "date": "2016-07-23",
         "dow": 6,
+        "week_num": 29,
         "temp": "85",
         "ridership": 166782,
         "value": 1
@@ -1437,6 +1642,7 @@
     {
         "date": "2016-07-24",
         "dow": 7,
+        "week_num": 29,
         "temp": "78",
         "ridership": 125442,
         "value": 1
@@ -1444,6 +1650,7 @@
     {
         "date": "2016-07-25",
         "dow": 1,
+        "week_num": 30,
         "temp": "79",
         "ridership": 220594,
         "value": 1
@@ -1451,6 +1658,7 @@
     {
         "date": "2016-07-26",
         "dow": 2,
+        "week_num": 30,
         "temp": "79",
         "ridership": 232638,
         "value": 1
@@ -1458,6 +1666,7 @@
     {
         "date": "2016-07-27",
         "dow": 3,
+        "week_num": 30,
         "temp": "79",
         "ridership": 252672,
         "value": 1
@@ -1465,6 +1674,7 @@
     {
         "date": "2016-07-28",
         "dow": 4,
+        "week_num": 30,
         "temp": "77",
         "ridership": 258274,
         "value": 1
@@ -1472,6 +1682,7 @@
     {
         "date": "2016-07-29",
         "dow": 5,
+        "week_num": 30,
         "temp": "73",
         "ridership": 266705,
         "value": 1
@@ -1479,6 +1690,7 @@
     {
         "date": "2016-07-30",
         "dow": 6,
+        "week_num": 30,
         "temp": "72",
         "ridership": 205241,
         "value": 1
@@ -1486,6 +1698,7 @@
     {
         "date": "2016-07-31",
         "dow": 7,
+        "week_num": 30,
         "temp": "73",
         "ridership": 167209,
         "value": 1
@@ -1493,6 +1706,7 @@
     {
         "date": "2016-08-01",
         "dow": 1,
+        "week_num": 31,
         "temp": "75",
         "ridership": 233872,
         "value": 1
@@ -1500,6 +1714,7 @@
     {
         "date": "2016-08-02",
         "dow": 2,
+        "week_num": 31,
         "temp": "77",
         "ridership": 232085,
         "value": 1
@@ -1507,6 +1722,7 @@
     {
         "date": "2016-08-03",
         "dow": 3,
+        "week_num": 31,
         "temp": "80",
         "ridership": 235846,
         "value": 1
@@ -1514,6 +1730,7 @@
     {
         "date": "2016-08-04",
         "dow": 4,
+        "week_num": 31,
         "temp": "81",
         "ridership": 217688,
         "value": 1
@@ -1521,6 +1738,7 @@
     {
         "date": "2016-08-05",
         "dow": 5,
+        "week_num": 31,
         "temp": "78",
         "ridership": 223057,
         "value": 1
@@ -1528,6 +1746,7 @@
     {
         "date": "2016-08-06",
         "dow": 6,
+        "week_num": 31,
         "temp": "76",
         "ridership": 167144,
         "value": 1
@@ -1535,6 +1754,7 @@
     {
         "date": "2016-08-07",
         "dow": 7,
+        "week_num": 31,
         "temp": "75",
         "ridership": 127563,
         "value": 1
@@ -1542,6 +1762,7 @@
     {
         "date": "2016-08-08",
         "dow": 1,
+        "week_num": 32,
         "temp": "77",
         "ridership": 202401,
         "value": 1
@@ -1549,6 +1770,7 @@
     {
         "date": "2016-08-09",
         "dow": 2,
+        "week_num": 32,
         "temp": "78",
         "ridership": 228132,
         "value": 1
@@ -1556,6 +1778,7 @@
     {
         "date": "2016-08-10",
         "dow": 3,
+        "week_num": 32,
         "temp": "80",
         "ridership": 228212,
         "value": 1
@@ -1563,6 +1786,7 @@
     {
         "date": "2016-08-11",
         "dow": 4,
+        "week_num": 32,
         "temp": "82",
         "ridership": 232833,
         "value": 1
@@ -1570,6 +1794,7 @@
     {
         "date": "2016-08-12",
         "dow": 5,
+        "week_num": 32,
         "temp": "80",
         "ridership": 217901,
         "value": 1
@@ -1577,6 +1802,7 @@
     {
         "date": "2016-08-13",
         "dow": 6,
+        "week_num": 32,
         "temp": "77",
         "ridership": 180145,
         "value": 1
@@ -1584,6 +1810,7 @@
     {
         "date": "2016-08-14",
         "dow": 7,
+        "week_num": 32,
         "temp": "77",
         "ridership": 144331,
         "value": 1
@@ -1591,6 +1818,7 @@
     {
         "date": "2016-08-15",
         "dow": 1,
+        "week_num": 33,
         "temp": "74",
         "ridership": 194324,
         "value": 1
@@ -1598,6 +1826,7 @@
     {
         "date": "2016-08-16",
         "dow": 2,
+        "week_num": 33,
         "temp": "76",
         "ridership": 227511,
         "value": 1
@@ -1605,6 +1834,7 @@
     {
         "date": "2016-08-17",
         "dow": 3,
+        "week_num": 33,
         "temp": "77",
         "ridership": 220129,
         "value": 1
@@ -1612,6 +1842,7 @@
     {
         "date": "2016-08-18",
         "dow": 4,
+        "week_num": 33,
         "temp": "77",
         "ridership": 218770,
         "value": 1
@@ -1619,6 +1850,7 @@
     {
         "date": "2016-08-19",
         "dow": 5,
+        "week_num": 33,
         "temp": "75",
         "ridership": 210677,
         "value": 1
@@ -1626,6 +1858,7 @@
     {
         "date": "2016-08-20",
         "dow": 6,
+        "week_num": 33,
         "temp": "75",
         "ridership": 162917,
         "value": 1
@@ -1633,6 +1866,7 @@
     {
         "date": "2016-08-21",
         "dow": 7,
+        "week_num": 33,
         "temp": "66",
         "ridership": 140917,
         "value": 1
@@ -1640,6 +1874,7 @@
     {
         "date": "2016-08-22",
         "dow": 1,
+        "week_num": 34,
         "temp": "67",
         "ridership": 217276,
         "value": 1
@@ -1647,6 +1882,7 @@
     {
         "date": "2016-08-23",
         "dow": 2,
+        "week_num": 34,
         "temp": "71",
         "ridership": 210529,
         "value": 1
@@ -1654,6 +1890,7 @@
     {
         "date": "2016-08-24",
         "dow": 3,
+        "week_num": 34,
         "temp": "75",
         "ridership": 204060,
         "value": 1
@@ -1661,6 +1898,7 @@
     {
         "date": "2016-08-25",
         "dow": 4,
+        "week_num": 34,
         "temp": "76",
         "ridership": 208223,
         "value": 1
@@ -1668,6 +1906,7 @@
     {
         "date": "2016-08-26",
         "dow": 5,
+        "week_num": 34,
         "temp": "72",
         "ridership": 231418,
         "value": 1
@@ -1675,6 +1914,7 @@
     {
         "date": "2016-08-27",
         "dow": 6,
+        "week_num": 34,
         "temp": "74",
         "ridership": 164130,
         "value": 1
@@ -1682,6 +1922,7 @@
     {
         "date": "2016-08-28",
         "dow": 7,
+        "week_num": 34,
         "temp": "77",
         "ridership": 121457,
         "value": 1
@@ -1689,6 +1930,7 @@
     {
         "date": "2016-08-29",
         "dow": 1,
+        "week_num": 35,
         "temp": "76",
         "ridership": 218840,
         "value": 1
@@ -1696,6 +1938,7 @@
     {
         "date": "2016-08-30",
         "dow": 2,
+        "week_num": 35,
         "temp": "76",
         "ridership": 226371,
         "value": 1
@@ -1703,6 +1946,7 @@
     {
         "date": "2016-08-31",
         "dow": 3,
+        "week_num": 35,
         "temp": "73",
         "ridership": 228780,
         "value": 1
@@ -1710,6 +1954,7 @@
     {
         "date": "2016-09-01",
         "dow": 4,
+        "week_num": 35,
         "temp": "67",
         "ridership": 233723,
         "value": 1
@@ -1717,6 +1962,7 @@
     {
         "date": "2016-09-02",
         "dow": 5,
+        "week_num": 35,
         "temp": "68",
         "ridership": 238052,
         "value": 1
@@ -1724,6 +1970,7 @@
     {
         "date": "2016-09-03",
         "dow": 6,
+        "week_num": 35,
         "temp": "68",
         "ridership": 181265,
         "value": 1
@@ -1731,6 +1978,7 @@
     {
         "date": "2016-09-04",
         "dow": 7,
+        "week_num": 35,
         "temp": "69",
         "ridership": 157122,
         "value": 1
@@ -1738,6 +1986,7 @@
     {
         "date": "2016-09-05",
         "dow": 1,
+        "week_num": 36,
         "temp": "73",
         "ridership": 122693,
         "value": 1
@@ -1745,6 +1994,7 @@
     {
         "date": "2016-09-06",
         "dow": 2,
+        "week_num": 36,
         "temp": "82",
         "ridership": 222714,
         "value": 1
@@ -1752,6 +2002,7 @@
     {
         "date": "2016-09-07",
         "dow": 3,
+        "week_num": 36,
         "temp": "83",
         "ridership": 232488,
         "value": 1
@@ -1759,6 +2010,7 @@
     {
         "date": "2016-09-08",
         "dow": 4,
+        "week_num": 36,
         "temp": "76",
         "ridership": 235370,
         "value": 1
@@ -1766,6 +2018,7 @@
     {
         "date": "2016-09-09",
         "dow": 5,
+        "week_num": 36,
         "temp": "74",
         "ridership": 234517,
         "value": 1
@@ -1773,6 +2026,7 @@
     {
         "date": "2016-09-10",
         "dow": 6,
+        "week_num": 36,
         "temp": "69",
         "ridership": 166008,
         "value": 1
@@ -1780,6 +2034,7 @@
     {
         "date": "2016-09-11",
         "dow": 7,
+        "week_num": 36,
         "temp": "65",
         "ridership": 126529,
         "value": 1
@@ -1787,6 +2042,7 @@
     {
         "date": "2016-09-12",
         "dow": 1,
+        "week_num": 37,
         "temp": "67",
         "ridership": 231273,
         "value": 1
@@ -1794,6 +2050,7 @@
     {
         "date": "2016-09-13",
         "dow": 2,
+        "week_num": 37,
         "temp": "72",
         "ridership": 244704,
         "value": 1
@@ -1801,6 +2058,7 @@
     {
         "date": "2016-09-14",
         "dow": 3,
+        "week_num": 37,
         "temp": "69",
         "ridership": 240585,
         "value": 1
@@ -1808,6 +2066,7 @@
     {
         "date": "2016-09-15",
         "dow": 4,
+        "week_num": 37,
         "temp": "68",
         "ridership": 263446,
         "value": 1
@@ -1815,6 +2074,7 @@
     {
         "date": "2016-09-16",
         "dow": 5,
+        "week_num": 37,
         "temp": "72",
         "ridership": 255533,
         "value": 1
@@ -1822,6 +2082,7 @@
     {
         "date": "2016-09-17",
         "dow": 6,
+        "week_num": 37,
         "temp": "74",
         "ridership": 183827,
         "value": 1
@@ -1829,6 +2090,7 @@
     {
         "date": "2016-09-18",
         "dow": 7,
+        "week_num": 37,
         "temp": "69",
         "ridership": 141592,
         "value": 1
@@ -1836,6 +2098,7 @@
     {
         "date": "2016-09-19",
         "dow": 1,
+        "week_num": 38,
         "temp": "71",
         "ridership": 242772,
         "value": 1
@@ -1843,6 +2106,7 @@
     {
         "date": "2016-09-20",
         "dow": 2,
+        "week_num": 38,
         "temp": "75",
         "ridership": 249804,
         "value": 1
@@ -1850,6 +2114,7 @@
     {
         "date": "2016-09-21",
         "dow": 3,
+        "week_num": 38,
         "temp": "70",
         "ridership": 246089,
         "value": 1
@@ -1857,6 +2122,7 @@
     {
         "date": "2016-09-22",
         "dow": 4,
+        "week_num": 38,
         "temp": "71",
         "ridership": 241119,
         "value": 1
@@ -1864,6 +2130,7 @@
     {
         "date": "2016-09-23",
         "dow": 5,
+        "week_num": 38,
         "temp": "72",
         "ridership": 254537,
         "value": 1
@@ -1871,6 +2138,7 @@
     {
         "date": "2016-09-24",
         "dow": 6,
+        "week_num": 38,
         "temp": "69",
         "ridership": 192917,
         "value": 1
@@ -1878,6 +2146,7 @@
     {
         "date": "2016-09-25",
         "dow": 7,
+        "week_num": 38,
         "temp": "72",
         "ridership": 140449,
         "value": 1
@@ -1885,6 +2154,7 @@
     {
         "date": "2016-09-26",
         "dow": 1,
+        "week_num": 39,
         "temp": "66",
         "ridership": 232764,
         "value": 1
@@ -1892,6 +2162,7 @@
     {
         "date": "2016-09-27",
         "dow": 2,
+        "week_num": 39,
         "temp": "60",
         "ridership": 235659,
         "value": 1
@@ -1899,6 +2170,7 @@
     {
         "date": "2016-09-28",
         "dow": 3,
+        "week_num": 39,
         "temp": "56",
         "ridership": 230700,
         "value": 1
@@ -1906,6 +2178,7 @@
     {
         "date": "2016-09-29",
         "dow": 4,
+        "week_num": 39,
         "temp": "61",
         "ridership": 235807,
         "value": 1
@@ -1913,6 +2186,7 @@
     {
         "date": "2016-09-30",
         "dow": 5,
+        "week_num": 39,
         "temp": "62",
         "ridership": 233963,
         "value": 1
@@ -1920,6 +2194,7 @@
     {
         "date": "2016-10-01",
         "dow": 6,
+        "week_num": 39,
         "temp": "61",
         "ridership": 161054,
         "value": 1
@@ -1927,6 +2202,7 @@
     {
         "date": "2016-10-02",
         "dow": 7,
+        "week_num": 39,
         "temp": "60",
         "ridership": 128020,
         "value": 1
@@ -1934,6 +2210,7 @@
     {
         "date": "2016-10-03",
         "dow": 1,
+        "week_num": 40,
         "temp": "62",
         "ridership": 228391,
         "value": 1
@@ -1941,6 +2218,7 @@
     {
         "date": "2016-10-04",
         "dow": 2,
+        "week_num": 40,
         "temp": "65",
         "ridership": 235857,
         "value": 1
@@ -1948,6 +2226,7 @@
     {
         "date": "2016-10-05",
         "dow": 3,
+        "week_num": 40,
         "temp": "69",
         "ridership": 240917,
         "value": 1
@@ -1955,6 +2234,7 @@
     {
         "date": "2016-10-06",
         "dow": 4,
+        "week_num": 40,
         "temp": "66",
         "ridership": 239713,
         "value": 1
@@ -1962,6 +2242,7 @@
     {
         "date": "2016-10-07",
         "dow": 5,
+        "week_num": 40,
         "temp": "65",
         "ridership": 269363,
         "value": 1
@@ -1969,6 +2250,7 @@
     {
         "date": "2016-10-08",
         "dow": 6,
+        "week_num": 40,
         "temp": "52",
         "ridership": 200366,
         "value": 1
@@ -1976,6 +2258,7 @@
     {
         "date": "2016-10-09",
         "dow": 7,
+        "week_num": 40,
         "temp": "56",
         "ridership": 189409,
         "value": 1
@@ -1983,6 +2266,7 @@
     {
         "date": "2016-10-10",
         "dow": 1,
+        "week_num": 41,
         "temp": "56",
         "ridership": 213880,
         "value": 1
@@ -1990,6 +2274,7 @@
     {
         "date": "2016-10-11",
         "dow": 2,
+        "week_num": 41,
         "temp": "63",
         "ridership": 237523,
         "value": 1
@@ -1997,6 +2282,7 @@
     {
         "date": "2016-10-12",
         "dow": 3,
+        "week_num": 41,
         "temp": "62",
         "ridership": 230333,
         "value": 1
@@ -2004,6 +2290,7 @@
     {
         "date": "2016-10-13",
         "dow": 4,
+        "week_num": 41,
         "temp": "48",
         "ridership": 244075,
         "value": 1
@@ -2011,6 +2298,7 @@
     {
         "date": "2016-10-14",
         "dow": 5,
+        "week_num": 41,
         "temp": "50",
         "ridership": 244754,
         "value": 1
@@ -2018,6 +2306,7 @@
     {
         "date": "2016-10-15",
         "dow": 6,
+        "week_num": 41,
         "temp": "58",
         "ridership": 196628,
         "value": 1
@@ -2025,6 +2314,7 @@
     {
         "date": "2016-10-16",
         "dow": 7,
+        "week_num": 41,
         "temp": "69",
         "ridership": 151987,
         "value": 1
@@ -2032,6 +2322,7 @@
     {
         "date": "2016-10-17",
         "dow": 1,
+        "week_num": 42,
         "temp": "72",
         "ridership": 231849,
         "value": 1
@@ -2039,6 +2330,7 @@
     {
         "date": "2016-10-18",
         "dow": 2,
+        "week_num": 42,
         "temp": "74",
         "ridership": 238686,
         "value": 1
@@ -2046,6 +2338,7 @@
     {
         "date": "2016-10-19",
         "dow": 3,
+        "week_num": 42,
         "temp": "60",
         "ridership": 237744,
         "value": 1
@@ -2053,6 +2346,7 @@
     {
         "date": "2016-10-20",
         "dow": 4,
+        "week_num": 42,
         "temp": "55",
         "ridership": 240742,
         "value": 1
@@ -2060,6 +2354,7 @@
     {
         "date": "2016-10-21",
         "dow": 5,
+        "week_num": 42,
         "temp": "48",
         "ridership": 238998,
         "value": 1
@@ -2067,6 +2362,7 @@
     {
         "date": "2016-10-22",
         "dow": 6,
+        "week_num": 42,
         "temp": "47",
         "ridership": 214922,
         "value": 1
@@ -2074,6 +2370,7 @@
     {
         "date": "2016-10-23",
         "dow": 7,
+        "week_num": 42,
         "temp": "55",
         "ridership": 136595,
         "value": 1
@@ -2081,6 +2378,7 @@
     {
         "date": "2016-10-24",
         "dow": 1,
+        "week_num": 43,
         "temp": "54",
         "ridership": 228795,
         "value": 1
@@ -2088,6 +2386,7 @@
     {
         "date": "2016-10-25",
         "dow": 2,
+        "week_num": 43,
         "temp": "46",
         "ridership": 237498,
         "value": 1
@@ -2095,6 +2394,7 @@
     {
         "date": "2016-10-26",
         "dow": 3,
+        "week_num": 43,
         "temp": "48",
         "ridership": 229107,
         "value": 1
@@ -2102,6 +2402,7 @@
     {
         "date": "2016-10-27",
         "dow": 4,
+        "week_num": 43,
         "temp": "48",
         "ridership": 244471,
         "value": 1
@@ -2109,6 +2410,7 @@
     {
         "date": "2016-10-28",
         "dow": 5,
+        "week_num": 43,
         "temp": "49",
         "ridership": 292955,
         "value": 1
@@ -2116,6 +2418,7 @@
     {
         "date": "2016-10-29",
         "dow": 6,
+        "week_num": 43,
         "temp": "66",
         "ridership": 244390,
         "value": 1
@@ -2123,6 +2426,7 @@
     {
         "date": "2016-10-30",
         "dow": 7,
+        "week_num": 43,
         "temp": "54",
         "ridership": 178003,
         "value": 1
@@ -2130,6 +2434,7 @@
     {
         "date": "2016-10-31",
         "dow": 1,
+        "week_num": 44,
         "temp": "48",
         "ridership": 245022,
         "value": 1
@@ -2137,6 +2442,7 @@
     {
         "date": "2016-11-01",
         "dow": 2,
+        "week_num": 44,
         "temp": "65",
         "ridership": 243514,
         "value": 1
@@ -2144,6 +2450,7 @@
     {
         "date": "2016-11-02",
         "dow": 3,
+        "week_num": 44,
         "temp": "62",
         "ridership": 254072,
         "value": 1
@@ -2151,6 +2458,7 @@
     {
         "date": "2016-11-03",
         "dow": 4,
+        "week_num": 44,
         "temp": "56",
         "ridership": 286872,
         "value": 1
@@ -2158,6 +2466,7 @@
     {
         "date": "2016-11-04",
         "dow": 5,
+        "week_num": 44,
         "temp": "53",
         "ridership": 349810,
         "value": 1
@@ -2165,6 +2474,7 @@
     {
         "date": "2016-11-05",
         "dow": 6,
+        "week_num": 44,
         "temp": "55",
         "ridership": 198649,
         "value": 1
@@ -2172,6 +2482,7 @@
     {
         "date": "2016-11-06",
         "dow": 7,
+        "week_num": 44,
         "temp": "56",
         "ridership": 140066,
         "value": 1
@@ -2179,6 +2490,7 @@
     {
         "date": "2016-11-07",
         "dow": 1,
+        "week_num": 45,
         "temp": "54",
         "ridership": 235940,
         "value": 1
@@ -2186,6 +2498,7 @@
     {
         "date": "2016-11-08",
         "dow": 2,
+        "week_num": 45,
         "temp": "56",
         "ridership": 234105,
         "value": 1
@@ -2193,6 +2506,7 @@
     {
         "date": "2016-11-09",
         "dow": 3,
+        "week_num": 45,
         "temp": "49",
         "ridership": 241184,
         "value": 1
@@ -2200,6 +2514,7 @@
     {
         "date": "2016-11-10",
         "dow": 4,
+        "week_num": 45,
         "temp": "49",
         "ridership": 236830,
         "value": 1
@@ -2207,6 +2522,7 @@
     {
         "date": "2016-11-11",
         "dow": 5,
+        "week_num": 45,
         "temp": "50",
         "ridership": 219032,
         "value": 1
@@ -2214,6 +2530,7 @@
     {
         "date": "2016-11-12",
         "dow": 6,
+        "week_num": 45,
         "temp": "42",
         "ridership": 174638,
         "value": 1
@@ -2221,6 +2538,7 @@
     {
         "date": "2016-11-13",
         "dow": 7,
+        "week_num": 45,
         "temp": "45",
         "ridership": 124292,
         "value": 1
@@ -2228,6 +2546,7 @@
     {
         "date": "2016-11-14",
         "dow": 1,
+        "week_num": 46,
         "temp": "48",
         "ridership": 226808,
         "value": 1
@@ -2235,6 +2554,7 @@
     {
         "date": "2016-11-15",
         "dow": 2,
+        "week_num": 46,
         "temp": "46",
         "ridership": 233663,
         "value": 1
@@ -2242,6 +2562,7 @@
     {
         "date": "2016-11-16",
         "dow": 3,
+        "week_num": 46,
         "temp": "48",
         "ridership": 233390,
         "value": 1
@@ -2249,6 +2570,7 @@
     {
         "date": "2016-11-17",
         "dow": 4,
+        "week_num": 46,
         "temp": "55",
         "ridership": 236879,
         "value": 1
@@ -2256,6 +2578,7 @@
     {
         "date": "2016-11-18",
         "dow": 5,
+        "week_num": 46,
         "temp": "62",
         "ridership": 232512,
         "value": 1
@@ -2263,6 +2586,7 @@
     {
         "date": "2016-11-19",
         "dow": 6,
+        "week_num": 46,
         "temp": "38",
         "ridership": 184143,
         "value": 1
@@ -2270,6 +2594,7 @@
     {
         "date": "2016-11-20",
         "dow": 7,
+        "week_num": 46,
         "temp": "29",
         "ridership": 115490,
         "value": 1
@@ -2277,6 +2602,7 @@
     {
         "date": "2016-11-21",
         "dow": 1,
+        "week_num": 47,
         "temp": "30",
         "ridership": 219796,
         "value": 1
@@ -2284,6 +2610,7 @@
     {
         "date": "2016-11-22",
         "dow": 2,
+        "week_num": 47,
         "temp": "33",
         "ridership": 218943,
         "value": 1
@@ -2291,6 +2618,7 @@
     {
         "date": "2016-11-23",
         "dow": 3,
+        "week_num": 47,
         "temp": "40",
         "ridership": 179556,
         "value": 1
@@ -2298,6 +2626,7 @@
     {
         "date": "2016-11-24",
         "dow": 4,
+        "week_num": 47,
         "temp": "40",
         "ridership": 77166,
         "value": 1
@@ -2305,6 +2634,7 @@
     {
         "date": "2016-11-25",
         "dow": 5,
+        "week_num": 47,
         "temp": "37",
         "ridership": 137603,
         "value": 1
@@ -2312,6 +2642,7 @@
     {
         "date": "2016-11-26",
         "dow": 6,
+        "week_num": 47,
         "temp": "38",
         "ridership": 127036,
         "value": 1
@@ -2319,6 +2650,7 @@
     {
         "date": "2016-11-27",
         "dow": 7,
+        "week_num": 47,
         "temp": "38",
         "ridership": 102331,
         "value": 1
@@ -2326,6 +2658,7 @@
     {
         "date": "2016-11-28",
         "dow": 1,
+        "week_num": 48,
         "temp": "44",
         "ridership": 201174,
         "value": 1
@@ -2333,6 +2666,7 @@
     {
         "date": "2016-11-29",
         "dow": 2,
+        "week_num": 48,
         "temp": "50",
         "ridership": 218491,
         "value": 1
@@ -2340,6 +2674,7 @@
     {
         "date": "2016-11-30",
         "dow": 3,
+        "week_num": 48,
         "temp": "41",
         "ridership": 218121,
         "value": 1
@@ -2347,6 +2682,7 @@
     {
         "date": "2016-12-01",
         "dow": 4,
+        "week_num": 48,
         "temp": "38",
         "ridership": 223495,
         "value": 1
@@ -2354,6 +2690,7 @@
     {
         "date": "2016-12-02",
         "dow": 5,
+        "week_num": 48,
         "temp": "37",
         "ridership": 228814,
         "value": 1
@@ -2361,6 +2698,7 @@
     {
         "date": "2016-12-03",
         "dow": 6,
+        "week_num": 48,
         "temp": "33",
         "ridership": 160187,
         "value": 1
@@ -2368,6 +2706,7 @@
     {
         "date": "2016-12-04",
         "dow": 7,
+        "week_num": 48,
         "temp": "31",
         "ridership": 113128,
         "value": 1
@@ -2375,6 +2714,7 @@
     {
         "date": "2016-12-05",
         "dow": 1,
+        "week_num": 49,
         "temp": "32",
         "ridership": 209582,
         "value": 1
@@ -2382,6 +2722,7 @@
     {
         "date": "2016-12-06",
         "dow": 2,
+        "week_num": 49,
         "temp": "33",
         "ridership": 215481,
         "value": 1
@@ -2389,6 +2730,7 @@
     {
         "date": "2016-12-07",
         "dow": 3,
+        "week_num": 49,
         "temp": "26",
         "ridership": 214024,
         "value": 1
@@ -2396,6 +2738,7 @@
     {
         "date": "2016-12-08",
         "dow": 4,
+        "week_num": 49,
         "temp": "21",
         "ridership": 206202,
         "value": 1
@@ -2403,6 +2746,7 @@
     {
         "date": "2016-12-09",
         "dow": 5,
+        "week_num": 49,
         "temp": "23",
         "ridership": 213571,
         "value": 1
@@ -2410,6 +2754,7 @@
     {
         "date": "2016-12-10",
         "dow": 6,
+        "week_num": 49,
         "temp": "20",
         "ridership": 149034,
         "value": 1
@@ -2417,6 +2762,7 @@
     {
         "date": "2016-12-11",
         "dow": 7,
+        "week_num": 49,
         "temp": "26",
         "ridership": 104297,
         "value": 1
@@ -2424,6 +2770,7 @@
     {
         "date": "2016-12-12",
         "dow": 1,
+        "week_num": 50,
         "temp": "25",
         "ridership": 201509,
         "value": 1
@@ -2431,6 +2778,7 @@
     {
         "date": "2016-12-13",
         "dow": 2,
+        "week_num": 50,
         "temp": "15",
         "ridership": 205729,
         "value": 1
@@ -2438,6 +2786,7 @@
     {
         "date": "2016-12-14",
         "dow": 3,
+        "week_num": 50,
         "temp": "10",
         "ridership": 197975,
         "value": 1
@@ -2445,6 +2794,7 @@
     {
         "date": "2016-12-15",
         "dow": 4,
+        "week_num": 50,
         "temp": "4",
         "ridership": 181241,
         "value": 1
@@ -2452,6 +2802,7 @@
     {
         "date": "2016-12-16",
         "dow": 5,
+        "week_num": 50,
         "temp": "12",
         "ridership": 203306,
         "value": 1
@@ -2459,6 +2810,7 @@
     {
         "date": "2016-12-17",
         "dow": 6,
+        "week_num": 50,
         "temp": "20",
         "ridership": 141422,
         "value": 1
@@ -2466,6 +2818,7 @@
     {
         "date": "2016-12-18",
         "dow": 7,
+        "week_num": 50,
         "temp": "11",
         "ridership": 93280,
         "value": 1
@@ -2473,6 +2826,7 @@
     {
         "date": "2016-12-19",
         "dow": 1,
+        "week_num": 51,
         "temp": "-1",
         "ridership": 172228,
         "value": 1
@@ -2480,6 +2834,7 @@
     {
         "date": "2016-12-20",
         "dow": 2,
+        "week_num": 51,
         "temp": "20",
         "ridership": 190095,
         "value": 1
@@ -2487,6 +2842,7 @@
     {
         "date": "2016-12-21",
         "dow": 3,
+        "week_num": 51,
         "temp": "26",
         "ridership": 189697,
         "value": 1
@@ -2494,6 +2850,7 @@
     {
         "date": "2016-12-22",
         "dow": 4,
+        "week_num": 51,
         "temp": "34",
         "ridership": 182418,
         "value": 1
@@ -2501,6 +2858,7 @@
     {
         "date": "2016-12-23",
         "dow": 5,
+        "week_num": 51,
         "temp": "31",
         "ridership": 157094,
         "value": 1
@@ -2508,6 +2866,7 @@
     {
         "date": "2016-12-24",
         "dow": 6,
+        "week_num": 51,
         "temp": "35",
         "ridership": 91755,
         "value": 1
@@ -2515,6 +2874,7 @@
     {
         "date": "2016-12-25",
         "dow": 7,
+        "week_num": 51,
         "temp": "33",
         "ridership": 46357,
         "value": 1
@@ -2522,6 +2882,7 @@
     {
         "date": "2016-12-26",
         "dow": 1,
+        "week_num": 52,
         "temp": "45",
         "ridership": 97007,
         "value": 1
@@ -2529,6 +2890,7 @@
     {
         "date": "2016-12-27",
         "dow": 2,
+        "week_num": 52,
         "temp": "28",
         "ridership": 142929,
         "value": 1
@@ -2536,6 +2898,7 @@
     {
         "date": "2016-12-28",
         "dow": 3,
+        "week_num": 52,
         "temp": "30",
         "ridership": 156929,
         "value": 1
@@ -2543,6 +2906,7 @@
     {
         "date": "2016-12-29",
         "dow": 4,
+        "week_num": 52,
         "temp": "34",
         "ridership": 157303,
         "value": 1
@@ -2550,6 +2914,7 @@
     {
         "date": "2016-12-30",
         "dow": 5,
+        "week_num": 52,
         "temp": "29",
         "ridership": 164047,
         "value": 1
@@ -2557,6 +2922,7 @@
     {
         "date": "2016-12-31",
         "dow": 6,
+        "week_num": 52,
         "temp": "35",
         "ridership": 130549,
         "value": 1

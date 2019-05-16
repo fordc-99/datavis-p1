@@ -44,6 +44,7 @@ def main():
         meta = {}
         meta['date'] = dt.strftime("%Y-%m-%d")
         meta['dow'] = dt.isoweekday()
+        meta['week_num'] = dt.isocalendar()[1]
         meta['temp'] = 0
         meta['ridership'] = 0
         meta['value'] = 1
@@ -69,6 +70,7 @@ def main():
                   '41300', '41320', '41380', '41400', '41420', 
                   '41430', '41450', '41490']
     max = 0
+    max_date = 0
     with open('cta_jsons/cta_data.csv') as cta_csv:
         cta_reader = csv.reader(cta_csv, delimiter=',')
         for row in cta_reader:
@@ -79,7 +81,9 @@ def main():
                     (data[cta_date.strftime('%Y-%m-%d')])['ridership'] += int(row[4])
                     if (data[cta_date.strftime('%Y-%m-%d')])['ridership'] > max:
                         max = (data[cta_date.strftime('%Y-%m-%d')])['ridership']
+                        max_date = (data[cta_date.strftime('%Y-%m-%d')])['date']
     print(max)
+    print(max_date)
                     
     # convert dict to json object, and place in json file
     with open('data.json', 'w') as fp:
